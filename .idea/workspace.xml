@@ -10,20 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Created maven module and ran first maven test successfully">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grad-module/src/test/java/MyFirstJUnit5Test.java" afterDir="false" />
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Ran first gradle test successfully">
+      <change afterPath="$PROJECT_DIR$/src/mvn-legacy-junit4-module/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-legacy-junit4-module/src/test/java/MyJunit4SimpleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/mvn-module.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/mvn-module.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +36,13 @@
     <projectState path="$PROJECT_DIR$/src/gr-module">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/src/grad-legacy-junit4-module">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/src/grad-module">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/mvn-legacy-module">
       <ProjectState />
     </projectState>
   </component>
@@ -110,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622695630933</updated>
-      <workItem from="1622695635660" duration="10381000" />
+      <workItem from="1622695635660" duration="12292000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -119,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622699557041</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ran first gradle test successfully">
+      <created>1622718311061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622718311061</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,24 +144,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created maven module and ran first maven test successfully" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created maven module and ran first maven test successfully" />
+    <MESSAGE value="Ran first gradle test successfully" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ran first gradle test successfully" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" key="#Project_Structure" timestamp="1622715854608">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="320" y="0" key="#Project_Structure/0.0.1920.1044@0.0.1920.1044" timestamp="1622715854607" />
-    <state x="1178" y="219" key="FileChooserDialogImpl" timestamp="1622716444547">
+    <state x="1178" y="219" key="FileChooserDialogImpl" timestamp="1622726096243">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622716444547" />
-    <state x="537" y="0" key="SettingsEditor" timestamp="1622717574654">
+    <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622726096243" />
+    <state x="537" y="0" key="SettingsEditor" timestamp="1622726259923">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="537" y="0" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1622717574654" />
-    <state x="298" y="0" key="new project wizard" timestamp="1622716460319">
+    <state x="537" y="0" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1622726259923" />
+    <state x="298" y="0" key="new project wizard" timestamp="1622726313958">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="298" y="0" key="new project wizard/0.0.1920.1044@0.0.1920.1044" timestamp="1622716460319" />
+    <state x="298" y="0" key="new project wizard/0.0.1920.1044@0.0.1920.1044" timestamp="1622726313958" />
   </component>
 </project>
