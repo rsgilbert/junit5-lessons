@@ -13,7 +13,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/mvn-module/pom.xml" />
         <option value="$PROJECT_DIR$/src/mvn-legacy-junit4-module/pom.xml" />
+        <option value="$PROJECT_DIR$/../mvn-junit5-code-on-junit4-platform-module/pom.xml" />
+        <option value="$PROJECT_DIR$/src/mvn-junit5-code-on-junit4-platform-module/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../src/mvn-junit5-code-on-junit4-platform-module/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">

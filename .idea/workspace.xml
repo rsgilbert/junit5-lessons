@@ -10,9 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Successfully ran maven test for junit4 using junit-vintage in a separate module called mvn-legacy-junit4-module">
-      <change afterPath="$PROJECT_DIR$/src/grad-legacy-junit4-module/src/test/java/MyJunit4SimpleTest.java" afterDir="false" />
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Successfully ran gradle test for junit4 using junit-vintage in a separate module called gradle-legacy-junit4-module">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-junit5-code-on-junit4-platform-module/mvn-junit5-code-on-junit4-platform-module.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-junit5-code-on-junit4-platform-module/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-junit5-code-on-junit4-platform-module/src/test/java/Junit5OnAJunit4IdeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-legacy-junit4-module/mvn-legacy-junit4-module.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +70,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="MyJunit4SimpleTest.onePlusOneIsTwo" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProjectId" id="1tQJy2KPCYOBKCOped6jU4WuvWI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -93,8 +103,57 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../src" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Junit5OnAJunit4IdeTest.testOnePlusOneEqualsTwoUsingJunit5ApiTest">
+    <configuration name="MyJunit4SimpleTest.onePlusOneIsTwo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/grad-legacy-junit4-module" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;MyJunit4SimpleTest.onePlusOneIsTwo&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Junit5OnAJunit4IdeTest.testOnePlusOneEqualsTwoUsingJunit5ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvn-junit5-code-on-junit4-platform-module" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Junit5OnAJunit4IdeTest" />
+      <option name="METHOD_NAME" value="testOnePlusOneEqualsTwoUsingJunit5ApiTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyJunit4SimpleTest.onePlusOneIsTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvn-legacy-junit4-module" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyJunit4SimpleTest" />
+      <option name="METHOD_NAME" value="onePlusOneIsTwo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Junit5OnAJunit4IdeTest.testOnePlusOneEqualsTwoUsingJunit5ApiTest" />
+        <item itemvalue="JUnit.MyJunit4SimpleTest.onePlusOneIsTwo" />
+        <item itemvalue="Gradle.MyJunit4SimpleTest.onePlusOneIsTwo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -106,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622695630933</updated>
-      <workItem from="1622695635660" duration="12999000" />
+      <workItem from="1622695635660" duration="17470000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -129,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622727344675</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Successfully ran gradle test for junit4 using junit-vintage in a separate module called gradle-legacy-junit4-module">
+      <created>1622728029353</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622728029353</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,24 +216,41 @@
     <MESSAGE value="Created maven module and ran first maven test successfully" />
     <MESSAGE value="Ran first gradle test successfully" />
     <MESSAGE value="Successfully ran maven test for junit4 using junit-vintage in a separate module called mvn-legacy-junit4-module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Successfully ran maven test for junit4 using junit-vintage in a separate module called mvn-legacy-junit4-module" />
+    <MESSAGE value="Successfully ran gradle test for junit4 using junit-vintage in a separate module called gradle-legacy-junit4-module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Successfully ran gradle test for junit4 using junit-vintage in a separate module called gradle-legacy-junit4-module" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" key="#Project_Structure" timestamp="1622715854608">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="320" y="0" key="#Project_Structure/0.0.1920.1044@0.0.1920.1044" timestamp="1622715854607" />
-    <state x="1178" y="219" key="FileChooserDialogImpl" timestamp="1622726096243">
+    <state x="1178" y="219" key="FileChooserDialogImpl" timestamp="1622736124044">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622726096243" />
-    <state x="537" y="0" key="SettingsEditor" timestamp="1622726259923">
+    <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622736124044" />
+    <state width="1090" height="256" key="GridCell.Tab.0.bottom" timestamp="1622737541411">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="537" y="0" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1622726259923" />
-    <state x="298" y="0" key="new project wizard" timestamp="1622726313958">
+    <state width="1090" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622737541411" />
+    <state width="1090" height="256" key="GridCell.Tab.0.center" timestamp="1622737541409">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="298" y="0" key="new project wizard/0.0.1920.1044@0.0.1920.1044" timestamp="1622726313958" />
+    <state width="1090" height="256" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622737541409" />
+    <state width="1090" height="256" key="GridCell.Tab.0.left" timestamp="1622737541408">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1090" height="256" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622737541408" />
+    <state width="1090" height="256" key="GridCell.Tab.0.right" timestamp="1622737541410">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1090" height="256" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622737541410" />
+    <state x="537" y="0" key="SettingsEditor" timestamp="1622736057654">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="537" y="0" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1622736057654" />
+    <state x="298" y="0" key="new project wizard" timestamp="1622736128813">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="298" y="0" key="new project wizard/0.0.1920.1044@0.0.1920.1044" timestamp="1622736128813" />
   </component>
 </project>
