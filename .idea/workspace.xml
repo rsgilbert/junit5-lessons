@@ -10,25 +10,54 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/mvn-module.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyFirstJUnit5Test.java" afterDir="false" />
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Created maven module and ran first maven test successfully">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grad-module/src/test/java/MyFirstJUnit5Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/mvn-module.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/mvn-module.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../gr">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../gr-module">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/gradle-module">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/gr-module">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/grad-module">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,6 +83,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gradle-module" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -65,8 +110,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622695630933</updated>
-      <workItem from="1622695635660" duration="3882000" />
+      <workItem from="1622695635660" duration="10381000" />
     </task>
+    <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
+      <created>1622699557041</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622699557041</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,14 +136,26 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created maven module and ran first maven test successfully" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created maven module and ran first maven test successfully" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1178" y="219" key="FileChooserDialogImpl" timestamp="1622695786225">
+    <state x="320" y="0" key="#Project_Structure" timestamp="1622715854608">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622695786225" />
-    <state x="298" y="11" key="new project wizard" timestamp="1622696519776">
+    <state x="320" y="0" key="#Project_Structure/0.0.1920.1044@0.0.1920.1044" timestamp="1622715854607" />
+    <state x="1178" y="219" key="FileChooserDialogImpl" timestamp="1622716444547">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="298" y="11" key="new project wizard/0.0.1920.1044@0.0.1920.1044" timestamp="1622696519776" />
+    <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622716444547" />
+    <state x="537" y="0" key="SettingsEditor" timestamp="1622717574654">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="537" y="0" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1622717574654" />
+    <state x="298" y="0" key="new project wizard" timestamp="1622716460319">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="298" y="0" key="new project wizard/0.0.1920.1044@0.0.1920.1044" timestamp="1622716460319" />
   </component>
 </project>

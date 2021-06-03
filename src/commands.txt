@@ -1,0 +1,6 @@
+// Build and test from commandline
+// Gradle:
+./gradlew test
+
+// Maven:
+mvn test
