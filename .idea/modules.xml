@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/junit5-lessons.iml" filepath="$PROJECT_DIR$/junit5-lessons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/mvn-module/mvn-module.iml" filepath="$PROJECT_DIR$/src/mvn-module/mvn-module.iml" />
     </modules>
   </component>
 </project>
