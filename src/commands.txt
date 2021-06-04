@@ -2,5 +2,9 @@
 // Gradle:
 ./gradlew test
 
-// Maven:
+// ## Maven:
+// Run all tests
 mvn test
+
+run a particular test class
+mvn test -Dtest=MyExceptionTest
