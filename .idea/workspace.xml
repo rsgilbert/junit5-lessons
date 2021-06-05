@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Implemented MyParameterResolver and DependencyInjectionTest to test how we can use extensions to provide parameters to test methods">
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Removed legacy modules">
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyLifeCycleJUnit5Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/SimpleJUnit5Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,11 +65,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="MyJunit4SimpleTest.onePlusOneIsTwo" />
-    </enabled-run-configurations>
-  </component>
   <component name="ProjectId" id="1tQJy2KPCYOBKCOped6jU4WuvWI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -100,7 +97,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DependencyInjectionTest.myParameterTest">
+  <component name="RunManager" selected="JUnit.MyLifeCycleJUnit5Test">
     <configuration name="DependencyInjectionTest.myParameterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
@@ -111,41 +108,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Junit5OnAJunit4IdeTest.testOnePlusOneEqualsTwoUsingJunit5ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvn-junit5-code-on-junit4-platform-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Junit5OnAJunit4IdeTest" />
-      <option name="METHOD_NAME" value="testOnePlusOneEqualsTwoUsingJunit5ApiTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyExceptionTest.shouldNotShowIOException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyLifeCycleJUnit5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyExceptionTest" />
-      <option name="METHOD_NAME" value="shouldNotShowIOException" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="MyLifeCycleJUnit5Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyExceptionTest.shouldThrowIOException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyLifeCycleJUnit5Test.testThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyExceptionTest" />
-      <option name="METHOD_NAME" value="shouldThrowIOException" />
+      <option name="MAIN_CLASS_NAME" value="MyLifeCycleJUnit5Test" />
+      <option name="METHOD_NAME" value="testThree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyJunit4SimpleTest.onePlusOneIsTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvn-legacy-junit4-module" />
+    <configuration name="MyLifeCycleJUnit5Test.testTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyJunit4SimpleTest" />
-      <option name="METHOD_NAME" value="onePlusOneIsTwo" />
+      <option name="MAIN_CLASS_NAME" value="MyLifeCycleJUnit5Test" />
+      <option name="METHOD_NAME" value="testTwo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleJUnit5Test.mySimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvn-module" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleJUnit5Test" />
+      <option name="METHOD_NAME" value="mySimpleTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyLifeCycleJUnit5Test" />
+        <item itemvalue="JUnit.MyLifeCycleJUnit5Test.testTwo" />
+        <item itemvalue="JUnit.MyLifeCycleJUnit5Test.testThree" />
+        <item itemvalue="JUnit.SimpleJUnit5Test.mySimpleTest" />
         <item itemvalue="JUnit.DependencyInjectionTest.myParameterTest" />
-        <item itemvalue="JUnit.MyExceptionTest.shouldNotShowIOException" />
-        <item itemvalue="JUnit.MyExceptionTest.shouldThrowIOException" />
-        <item itemvalue="JUnit.Junit5OnAJunit4IdeTest.testOnePlusOneEqualsTwoUsingJunit5ApiTest" />
-        <item itemvalue="JUnit.MyJunit4SimpleTest.onePlusOneIsTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +169,7 @@
       <updated>1622695630933</updated>
       <workItem from="1622695635660" duration="26895000" />
       <workItem from="1622773127843" duration="2969000" />
+      <workItem from="1622867099653" duration="2523000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -223,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622774765371</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Removed legacy modules">
+      <created>1622867396144</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622867396144</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +253,8 @@
     <MESSAGE value="Ran unit test written with junit5 api but running with a junit4 runner. Junit5 is not imported in the pom.xml file" />
     <MESSAGE value="Implemented Extension for ignoring IOExceptions called IgnoreIOExceptionExtension and tested with it in MyExceptionTest" />
     <MESSAGE value="Implemented MyParameterResolver and DependencyInjectionTest to test how we can use extensions to provide parameters to test methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented MyParameterResolver and DependencyInjectionTest to test how we can use extensions to provide parameters to test methods" />
+    <MESSAGE value="Removed legacy modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed legacy modules" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" key="#Project_Structure" timestamp="1622715854608">
@@ -260,22 +265,38 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622736124044" />
-    <state width="1090" height="256" key="GridCell.Tab.0.bottom" timestamp="1622776850909">
+    <state width="1080" height="369" key="GridCell.Tab.0.bottom" timestamp="1622869604070">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1090" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622776850909" />
-    <state width="1090" height="256" key="GridCell.Tab.0.center" timestamp="1622776850908">
+    <state width="1080" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622869604070" />
+    <state width="1080" height="369" key="GridCell.Tab.0.center" timestamp="1622869604069">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1090" height="256" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622776850908" />
-    <state width="1090" height="256" key="GridCell.Tab.0.left" timestamp="1622776850907">
+    <state width="1080" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622869604069" />
+    <state width="1080" height="369" key="GridCell.Tab.0.left" timestamp="1622869604068">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1090" height="256" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622776850907" />
-    <state width="1090" height="256" key="GridCell.Tab.0.right" timestamp="1622776850908">
+    <state width="1080" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622869604068" />
+    <state width="1080" height="369" key="GridCell.Tab.0.right" timestamp="1622869604069">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1090" height="256" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622776850908" />
+    <state width="1080" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622869604069" />
+    <state width="1080" height="318" key="GridCell.Tab.1.bottom" timestamp="1622868920826">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1080" height="318" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622868920826" />
+    <state width="1080" height="318" key="GridCell.Tab.1.center" timestamp="1622868920826">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1080" height="318" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622868920826" />
+    <state width="1080" height="318" key="GridCell.Tab.1.left" timestamp="1622868920826">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1080" height="318" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622868920826" />
+    <state width="1080" height="318" key="GridCell.Tab.1.right" timestamp="1622868920826">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1080" height="318" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622868920826" />
     <state x="537" y="0" key="SettingsEditor" timestamp="1622736057654">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
