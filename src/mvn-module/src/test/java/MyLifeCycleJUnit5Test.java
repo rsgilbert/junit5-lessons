@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.*;
 
-
+@DisplayName("JUnit5 Lifecycle tests")
 public class MyLifeCycleJUnit5Test {
     @BeforeAll
     static void setupAll() {
@@ -13,6 +13,7 @@ public class MyLifeCycleJUnit5Test {
         System.out.println("Setup Each test in the class");
     }
 
+    @DisplayName("First test")
     @Test
     void testOne() {
         System.out.println("Tested method one");
@@ -24,6 +25,7 @@ public class MyLifeCycleJUnit5Test {
         System.out.println("Tested method two");
     }
 
+    @DisplayName("Third test")
     @Disabled("test three is disabled")
     @Test
     void testThree() {

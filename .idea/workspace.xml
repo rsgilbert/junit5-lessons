@@ -11,9 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Removed legacy modules">
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyLifeCycleJUnit5Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/SimpleJUnit5Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyLifeCycleJUnit5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyLifeCycleJUnit5Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +168,7 @@
       <workItem from="1622695635660" duration="26895000" />
       <workItem from="1622773127843" duration="2969000" />
       <workItem from="1622867099653" duration="2523000" />
+      <workItem from="1622886596513" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
