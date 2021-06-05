@@ -10,9 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Used DisplayName to name the tests">
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/StandardAssertionsTest.java" afterDir="false" />
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Performed group test with assertAll">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/StandardAssertionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/StandardAssertionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StandardAssertionsTest.groupedAssertions">
+  <component name="RunManager" selected="JUnit.StandardAssertionsTest">
     <configuration name="MyLifeCycleJUnit5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
@@ -106,21 +106,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLifeCycleJUnit5Test.testThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StandardAssertionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyLifeCycleJUnit5Test" />
-      <option name="METHOD_NAME" value="testThree" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="StandardAssertionsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLifeCycleJUnit5Test.testTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StandardAssertionsTest.assertThrowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyLifeCycleJUnit5Test" />
-      <option name="METHOD_NAME" value="testTwo" />
+      <option name="MAIN_CLASS_NAME" value="StandardAssertionsTest" />
+      <option name="METHOD_NAME" value="assertThrowTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StandardAssertionsTest.groupedAssertions" />
+        <item itemvalue="JUnit.StandardAssertionsTest" />
         <item itemvalue="JUnit.StandardAssertionsTest.standardAssertions" />
+        <item itemvalue="JUnit.StandardAssertionsTest.assertThrowTest" />
+        <item itemvalue="JUnit.StandardAssertionsTest.groupedAssertions" />
         <item itemvalue="JUnit.MyLifeCycleJUnit5Test" />
-        <item itemvalue="JUnit.MyLifeCycleJUnit5Test.testTwo" />
-        <item itemvalue="JUnit.MyLifeCycleJUnit5Test.testThree" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +168,7 @@
       <workItem from="1622695635660" duration="26895000" />
       <workItem from="1622773127843" duration="2969000" />
       <workItem from="1622867099653" duration="2523000" />
-      <workItem from="1622886596513" duration="2413000" />
+      <workItem from="1622886596513" duration="3282000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -234,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622886829159</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Performed group test with assertAll">
+      <created>1622890047962</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1622890047962</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +268,8 @@
     <MESSAGE value="Implemented MyParameterResolver and DependencyInjectionTest to test how we can use extensions to provide parameters to test methods" />
     <MESSAGE value="Removed legacy modules" />
     <MESSAGE value="Used DisplayName to name the tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Used DisplayName to name the tests" />
+    <MESSAGE value="Performed group test with assertAll" />
+    <option name="LAST_COMMIT_MESSAGE" value="Performed group test with assertAll" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" width="1280" height="1044" key="#Project_Structure" timestamp="1622889201169">
@@ -273,38 +280,38 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622736124044" />
-    <state width="1080" height="369" key="GridCell.Tab.0.bottom" timestamp="1622889796825">
+    <state width="1080" height="369" key="GridCell.Tab.0.bottom" timestamp="1622890560317">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1080" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622889796825" />
-    <state width="1080" height="369" key="GridCell.Tab.0.center" timestamp="1622889796824">
+    <state width="1080" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622890560317" />
+    <state width="1080" height="369" key="GridCell.Tab.0.center" timestamp="1622890560317">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1080" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622889796824" />
-    <state width="1080" height="369" key="GridCell.Tab.0.left" timestamp="1622889796824">
+    <state width="1080" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622890560317" />
+    <state width="1080" height="369" key="GridCell.Tab.0.left" timestamp="1622890560317">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1080" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622889796824" />
-    <state width="1080" height="369" key="GridCell.Tab.0.right" timestamp="1622889796824">
+    <state width="1080" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622890560317" />
+    <state width="1080" height="369" key="GridCell.Tab.0.right" timestamp="1622890560317">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1080" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622889796824" />
-    <state width="1080" height="318" key="GridCell.Tab.1.bottom" timestamp="1622889781076">
+    <state width="1080" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622890560317" />
+    <state width="1080" height="318" key="GridCell.Tab.1.bottom" timestamp="1622890491206">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1080" height="318" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622889781076" />
-    <state width="1080" height="318" key="GridCell.Tab.1.center" timestamp="1622889781076">
+    <state width="1080" height="318" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622890491206" />
+    <state width="1080" height="318" key="GridCell.Tab.1.center" timestamp="1622890491206">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1080" height="318" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622889781076" />
-    <state width="1080" height="318" key="GridCell.Tab.1.left" timestamp="1622889781076">
+    <state width="1080" height="318" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622890491206" />
+    <state width="1080" height="318" key="GridCell.Tab.1.left" timestamp="1622890491205">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1080" height="318" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622889781076" />
-    <state width="1080" height="318" key="GridCell.Tab.1.right" timestamp="1622889781076">
+    <state width="1080" height="318" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622890491205" />
+    <state width="1080" height="318" key="GridCell.Tab.1.right" timestamp="1622890491206">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1080" height="318" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622889781076" />
+    <state width="1080" height="318" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622890491206" />
     <state x="537" y="0" key="SettingsEditor" timestamp="1622736057654">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

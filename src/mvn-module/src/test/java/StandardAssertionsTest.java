@@ -27,4 +27,14 @@ public class StandardAssertionsTest {
                 () -> assertFalse(name.isEmpty(), "Name can not be empty")
         );
     }
+
+    @Test
+    @DisplayName("Test throwing exceptions with assertThrow")
+    void assertThrowTest() {
+        Throwable exception = assertThrows(IllegalArgumentException.class,
+                () -> {
+                    throw new IllegalArgumentException("You provided an illegal argument");
+                });
+        assertEquals("You provided an illegal argument", exception.getMessage());
+    }
 }
