@@ -7,8 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mvn-module" />
-        <module name="mvn-junit5-code-on-junit4-platform-module" />
-        <module name="mvn-legacy-junit4-module" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,11 +14,14 @@
       <module name="gr-module" target="1.8" />
       <module name="gr-module.main" target="1.8" />
       <module name="gr-module.test" target="1.8" />
+      <module name="grad-legacy-junit4-module" target="1.8" />
       <module name="grad-legacy-module" target="1.8" />
       <module name="gradle-module" target="1.8" />
       <module name="gradle-module.main" target="1.8" />
       <module name="gradle-module.test" target="1.8" />
       <module name="mvn-junit5-code-on-junit4-platfm-module" target="1.5" />
+      <module name="mvn-junit5-code-on-junit4-platform-module" target="1.8" />
+      <module name="mvn-legacy-junit4-module" target="1.8" />
       <module name="mvn-legacy-module.main" target="1.8" />
       <module name="mvn-legacy-module.test" target="1.8" />
     </bytecodeTargetLevel>

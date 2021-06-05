@@ -10,10 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Implemented Extension for ignoring IOExceptions called IgnoreIOExceptionExtension and tested with it in MyExceptionTest">
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyParameterResolver.java" afterDir="false" />
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Implemented MyParameterResolver and DependencyInjectionTest to test how we can use extensions to provide parameters to test methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622695630933</updated>
       <workItem from="1622695635660" duration="26895000" />
-      <workItem from="1622773127843" duration="1466000" />
+      <workItem from="1622773127843" duration="2969000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -218,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622774125713</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implemented MyParameterResolver and DependencyInjectionTest to test how we can use extensions to provide parameters to test methods">
+      <created>1622774765371</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622774765371</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +248,8 @@
     <MESSAGE value="Successfully ran gradle test for junit4 using junit-vintage in a separate module called gradle-legacy-junit4-module" />
     <MESSAGE value="Ran unit test written with junit5 api but running with a junit4 runner. Junit5 is not imported in the pom.xml file" />
     <MESSAGE value="Implemented Extension for ignoring IOExceptions called IgnoreIOExceptionExtension and tested with it in MyExceptionTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Extension for ignoring IOExceptions called IgnoreIOExceptionExtension and tested with it in MyExceptionTest" />
+    <MESSAGE value="Implemented MyParameterResolver and DependencyInjectionTest to test how we can use extensions to provide parameters to test methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented MyParameterResolver and DependencyInjectionTest to test how we can use extensions to provide parameters to test methods" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" key="#Project_Structure" timestamp="1622715854608">
@@ -254,22 +260,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622736124044" />
-    <state width="1090" height="256" key="GridCell.Tab.0.bottom" timestamp="1622773943815">
+    <state width="1090" height="256" key="GridCell.Tab.0.bottom" timestamp="1622776850909">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1090" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622773943815" />
-    <state width="1090" height="256" key="GridCell.Tab.0.center" timestamp="1622773943813">
+    <state width="1090" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622776850909" />
+    <state width="1090" height="256" key="GridCell.Tab.0.center" timestamp="1622776850908">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1090" height="256" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622773943813" />
-    <state width="1090" height="256" key="GridCell.Tab.0.left" timestamp="1622773943811">
+    <state width="1090" height="256" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622776850908" />
+    <state width="1090" height="256" key="GridCell.Tab.0.left" timestamp="1622776850907">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1090" height="256" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622773943811" />
-    <state width="1090" height="256" key="GridCell.Tab.0.right" timestamp="1622773943814">
+    <state width="1090" height="256" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622776850907" />
+    <state width="1090" height="256" key="GridCell.Tab.0.right" timestamp="1622776850908">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1090" height="256" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622773943814" />
+    <state width="1090" height="256" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622776850908" />
     <state x="537" y="0" key="SettingsEditor" timestamp="1622736057654">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
