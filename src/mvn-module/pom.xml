@@ -43,7 +43,8 @@
                 <configuration>
                     <properties>
 <!--                   Filtering tags: https://www.baeldung.com/junit-filtering-tests-->
-                       <groups>non-functional</groups>
+                        <groups>non-functional</groups>
+                        <groups>security</groups>
                     </properties>
                 </configuration>
 

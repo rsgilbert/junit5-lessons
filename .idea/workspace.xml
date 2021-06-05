@@ -10,15 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Used hamcrest matchers and assertThat MatcherAssert">
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/FunctionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/FunctionalTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/NonFunctionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/SimpleTaggingTest.java" afterDir="false" />
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Executing tests from maven using groups to filter tests by tags">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mvn-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyExceptionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/TimeoutTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/TimeoutTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/FunctionalTestSuite.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +97,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NonFunctionalTest">
+  <component name="RunManager" selected="JUnit.Tags (Performance)">
     <configuration name="HamcrestTest.assertWithHamcrestMatcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
@@ -118,6 +113,42 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NonFunctionalTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tags (Functional)" type="JUnit" factoryName="JUnit">
+      <module name="mvn-module" />
+      <useClassPathOnly />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="tags" />
+      <option name="PARAMETERS" value="" />
+      <tag value="functional" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tags (Non-functional)" type="JUnit" factoryName="JUnit">
+      <module name="mvn-module" />
+      <useClassPathOnly />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="tags" />
+      <option name="PARAMETERS" value="" />
+      <tag value="non-functional" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tags (Performance)" type="JUnit" factoryName="JUnit">
+      <module name="mvn-module" />
+      <useClassPathOnly />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="tags" />
+      <option name="PARAMETERS" value="" />
+      <tag value="performance" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,6 +183,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.Tags (Functional)" />
+      <item itemvalue="JUnit.Tags (Non-functional)" />
+      <item itemvalue="JUnit.Tags (Performance)" />
+      <item itemvalue="JUnit.HamcrestTest.assertWithHamcrestMatcherTest" />
+      <item itemvalue="JUnit.NonFunctionalTest" />
+      <item itemvalue="JUnit.TimeoutTests.failBeforeTimeout" />
+      <item itemvalue="JUnit.TimeoutTests.timeoutExceededWithPreemptiveTerminationTest" />
+      <item itemvalue="JUnit.TimeoutTests.timoutExceeded" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.NonFunctionalTest" />
@@ -175,7 +216,7 @@
       <workItem from="1622695635660" duration="26895000" />
       <workItem from="1622773127843" duration="2969000" />
       <workItem from="1622867099653" duration="2523000" />
-      <workItem from="1622886596513" duration="10977000" />
+      <workItem from="1622886596513" duration="11754000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -268,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622901573583</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Executing tests from maven using groups to filter tests by tags">
+      <created>1622911419825</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1622911419825</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,33 +348,42 @@
     <MESSAGE value="Tested throwing exceptions" />
     <MESSAGE value="Performed timeout tests" />
     <MESSAGE value="Used hamcrest matchers and assertThat MatcherAssert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Used hamcrest matchers and assertThat MatcherAssert" />
+    <MESSAGE value="Executing tests from maven using groups to filter tests by tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Executing tests from maven using groups to filter tests by tags" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" width="1280" height="1044" key="#Project_Structure" timestamp="1622889201169">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="320" y="0" width="1280" height="1044" key="#Project_Structure/0.0.1920.1044@0.0.1920.1044" timestamp="1622889201169" />
+    <state x="579" y="156" width="1232" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622911980317">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="579" y="156" width="1232" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1622911980317" />
+    <state x="867" y="248" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1622911841195">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="867" y="248" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1622911841195" />
     <state x="1178" y="219" key="FileChooserDialogImpl" timestamp="1622736124044">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622736124044" />
-    <state width="1084" height="369" key="GridCell.Tab.0.bottom" timestamp="1622910081698">
+    <state width="1084" height="369" key="GridCell.Tab.0.bottom" timestamp="1622911867753">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622910081698" />
-    <state width="1084" height="369" key="GridCell.Tab.0.center" timestamp="1622910081696">
+    <state width="1084" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622911867753" />
+    <state width="1084" height="369" key="GridCell.Tab.0.center" timestamp="1622911867750">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622910081696" />
-    <state width="1084" height="369" key="GridCell.Tab.0.left" timestamp="1622910081694">
+    <state width="1084" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622911867750" />
+    <state width="1084" height="369" key="GridCell.Tab.0.left" timestamp="1622911867748">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622910081694" />
-    <state width="1084" height="369" key="GridCell.Tab.0.right" timestamp="1622910081697">
+    <state width="1084" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622911867748" />
+    <state width="1084" height="369" key="GridCell.Tab.0.right" timestamp="1622911867751">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622910081697" />
+    <state width="1084" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622911867751" />
     <state width="1080" height="318" key="GridCell.Tab.1.bottom" timestamp="1622899250281">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
