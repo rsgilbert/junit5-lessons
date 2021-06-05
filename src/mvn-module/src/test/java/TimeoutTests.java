@@ -17,6 +17,7 @@ public class TimeoutTests {
         });
     }
 
+    /*
     @Test
     @DisplayName("Not enough time test")
     void timoutExceeded() {
@@ -28,6 +29,7 @@ public class TimeoutTests {
             Thread.sleep(THREAD_SLEEP_MILLIS);
         });
     }
+     */
 
     @Test
     @DisplayName("assertTimeout with result from lambda function test")
@@ -49,6 +51,7 @@ public class TimeoutTests {
         return "Hello World";
     }
 
+    /*
     @Test
     @DisplayName("Timeout with preemptive termination test")
     void timeoutExceededWithPreemptiveTerminationTest() {
@@ -57,16 +60,20 @@ public class TimeoutTests {
             Thread.sleep(300L);
         });
     }
+     */
 
+    /*
     @Test
-    @DisplayName("Fail test before preemtpive timeout is exceeded test")
+    @DisplayName("Fail test before preemptive timeout is exceeded test")
     void failBeforePreemptiveTimeout() {
         assertTimeoutPreemptively(ofMillis(5L), () -> {
             fail("Manually fail test before preemptive timeout");
             Thread.sleep(10);
         });
     }
+     */
 
+    /*
     @Test
     @DisplayName("Fail test before timeout is exceeded test")
     void failBeforeTimeout() {
@@ -75,4 +82,5 @@ public class TimeoutTests {
             Thread.sleep(3000);
         });
     }
+     */
 }
