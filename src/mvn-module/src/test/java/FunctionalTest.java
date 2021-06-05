@@ -1,7 +1,11 @@
+import meta.Functional;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
-@Tag("functional")
+/**
+ * Use meta-annotation @Functional to tag the test class as "functional"
+ */
+@Functional
 public class FunctionalTest {
 
     @Test

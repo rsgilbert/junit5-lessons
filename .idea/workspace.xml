@@ -10,10 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Executing tests from maven using groups to filter tests by tags">
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Created run configurations using Intellij Junit5 tag support. Created and ran tag configurations for functional, non-functional and performance tags. Reference guidance: https://www.baeldung.com/junit-filtering-tests">
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/meta/Functional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/meta/Load.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/meta/Security.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/meta/Stress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/FunctionalTestSuite.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +99,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Tags (Performance)">
+  <component name="RunManager" selected="JUnit.Tags (Non-functional)">
     <configuration name="HamcrestTest.assertWithHamcrestMatcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
@@ -216,7 +218,7 @@
       <workItem from="1622695635660" duration="26895000" />
       <workItem from="1622773127843" duration="2969000" />
       <workItem from="1622867099653" duration="2523000" />
-      <workItem from="1622886596513" duration="11754000" />
+      <workItem from="1622886596513" duration="13071000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -316,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622911419825</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Created run configurations using Intellij Junit5 tag support. Created and ran tag configurations for functional, non-functional and performance tags. Reference guidance: https://www.baeldung.com/junit-filtering-tests">
+      <created>1622912083586</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1622912083586</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +358,8 @@
     <MESSAGE value="Performed timeout tests" />
     <MESSAGE value="Used hamcrest matchers and assertThat MatcherAssert" />
     <MESSAGE value="Executing tests from maven using groups to filter tests by tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="Executing tests from maven using groups to filter tests by tags" />
+    <MESSAGE value="Created run configurations using Intellij Junit5 tag support. Created and ran tag configurations for functional, non-functional and performance tags. Reference guidance: https://www.baeldung.com/junit-filtering-tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created run configurations using Intellij Junit5 tag support. Created and ran tag configurations for functional, non-functional and performance tags. Reference guidance: https://www.baeldung.com/junit-filtering-tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" width="1280" height="1044" key="#Project_Structure" timestamp="1622889201169">
@@ -368,22 +378,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622736124044" />
-    <state width="1084" height="369" key="GridCell.Tab.0.bottom" timestamp="1622911867753">
+    <state width="1084" height="369" key="GridCell.Tab.0.bottom" timestamp="1622911988366">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622911867753" />
-    <state width="1084" height="369" key="GridCell.Tab.0.center" timestamp="1622911867750">
+    <state width="1084" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622911988366" />
+    <state width="1084" height="369" key="GridCell.Tab.0.center" timestamp="1622911988365">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622911867750" />
-    <state width="1084" height="369" key="GridCell.Tab.0.left" timestamp="1622911867748">
+    <state width="1084" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622911988365" />
+    <state width="1084" height="369" key="GridCell.Tab.0.left" timestamp="1622911988365">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622911867748" />
-    <state width="1084" height="369" key="GridCell.Tab.0.right" timestamp="1622911867751">
+    <state width="1084" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622911988365" />
+    <state width="1084" height="369" key="GridCell.Tab.0.right" timestamp="1622911988366">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622911867751" />
+    <state width="1084" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622911988366" />
     <state width="1080" height="318" key="GridCell.Tab.1.bottom" timestamp="1622899250281">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
