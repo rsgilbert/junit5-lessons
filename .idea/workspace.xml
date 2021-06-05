@@ -10,9 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Tested throwing exceptions">
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/TimeoutTests.java" afterDir="false" />
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Performed timeout tests">
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/HamcrestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +99,17 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TimeoutTests.failBeforeTimeout">
+  <component name="RunManager" selected="JUnit.HamcrestTest.assertWithHamcrestMatcherTest">
+    <configuration name="HamcrestTest.assertWithHamcrestMatcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvn-module" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HamcrestTest" />
+      <option name="METHOD_NAME" value="assertWithHamcrestMatcherTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TimeoutTests.failBeforeTimeout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
@@ -112,16 +125,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TimeoutTests" />
       <option name="METHOD_NAME" value="timeoutExceededWithPreemptiveTerminationTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeoutTests.timeoutNotExceededWithResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TimeoutTests" />
-      <option name="METHOD_NAME" value="timeoutNotExceededWithResult" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HamcrestTest.assertWithHamcrestMatcherTest" />
         <item itemvalue="JUnit.TimeoutTests.failBeforeTimeout" />
         <item itemvalue="JUnit.TimeoutTests.timeoutExceededWithPreemptiveTerminationTest" />
         <item itemvalue="JUnit.TimeoutTests.timoutExceeded" />
         <item itemvalue="JUnit.TimeoutTests.timoutNotExceedWithMethod" />
-        <item itemvalue="JUnit.TimeoutTests.timeoutNotExceededWithResult" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +173,7 @@
       <workItem from="1622695635660" duration="26895000" />
       <workItem from="1622773127843" duration="2969000" />
       <workItem from="1622867099653" duration="2523000" />
-      <workItem from="1622886596513" duration="6608000" />
+      <workItem from="1622886596513" duration="7498000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -249,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622890769972</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Performed timeout tests">
+      <created>1622900842604</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1622900842604</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +289,8 @@
     <MESSAGE value="Used DisplayName to name the tests" />
     <MESSAGE value="Performed group test with assertAll" />
     <MESSAGE value="Tested throwing exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tested throwing exceptions" />
+    <MESSAGE value="Performed timeout tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Performed timeout tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" width="1280" height="1044" key="#Project_Structure" timestamp="1622889201169">
@@ -290,22 +301,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622736124044" />
-    <state width="1080" height="369" key="GridCell.Tab.0.bottom" timestamp="1622900470565">
+    <state width="1080" height="369" key="GridCell.Tab.0.bottom" timestamp="1622901465540">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1080" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622900470565" />
-    <state width="1080" height="369" key="GridCell.Tab.0.center" timestamp="1622900470565">
+    <state width="1080" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622901465540" />
+    <state width="1080" height="369" key="GridCell.Tab.0.center" timestamp="1622901465540">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1080" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622900470565" />
-    <state width="1080" height="369" key="GridCell.Tab.0.left" timestamp="1622900470564">
+    <state width="1080" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622901465540" />
+    <state width="1080" height="369" key="GridCell.Tab.0.left" timestamp="1622901465540">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1080" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622900470564" />
-    <state width="1080" height="369" key="GridCell.Tab.0.right" timestamp="1622900470565">
+    <state width="1080" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622901465540" />
+    <state width="1080" height="369" key="GridCell.Tab.0.right" timestamp="1622901465540">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1080" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622900470565" />
+    <state width="1080" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622901465540" />
     <state width="1080" height="318" key="GridCell.Tab.1.bottom" timestamp="1622899250281">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -322,10 +333,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1080" height="318" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622899250281" />
-    <state x="537" y="0" key="SettingsEditor" timestamp="1622736057654">
+    <state x="537" y="0" key="SettingsEditor" timestamp="1622901173285">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="537" y="0" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1622736057654" />
+    <state x="537" y="0" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1622901173285" />
     <state x="298" y="0" key="new project wizard" timestamp="1622736128813">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
