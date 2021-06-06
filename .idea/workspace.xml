@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Performed conditional test execution using custom annotation and a custom extension of ExecutionCondition called OsCondition">
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyAssumptionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/NestedClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +97,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyAssumptionsTest.assumingThatTest">
+  <component name="RunManager" selected="JUnit.NestedClassTest">
     <configuration name="MyAssumptionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
@@ -127,10 +127,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonFunctionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NestedClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NonFunctionalTest" />
+      <option name="MAIN_CLASS_NAME" value="NestedClassTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,19 +186,19 @@
       <item itemvalue="JUnit.Tags (Functional)" />
       <item itemvalue="JUnit.Tags (Non-functional)" />
       <item itemvalue="JUnit.Tags (Performance)" />
-      <item itemvalue="JUnit.NonFunctionalTest" />
       <item itemvalue="JUnit.UseMyDisabledOnOsTest.conditionalBasedOnOsTest" />
       <item itemvalue="JUnit.MyAssumptionsTest" />
       <item itemvalue="JUnit.MyAssumptionsTest.assumingThatTest" />
       <item itemvalue="JUnit.MyAssumptionsTest.assumeFalseTest" />
+      <item itemvalue="JUnit.NestedClassTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NestedClassTest" />
         <item itemvalue="JUnit.MyAssumptionsTest.assumingThatTest" />
         <item itemvalue="JUnit.MyAssumptionsTest" />
         <item itemvalue="JUnit.MyAssumptionsTest.assumeFalseTest" />
         <item itemvalue="JUnit.UseMyDisabledOnOsTest.conditionalBasedOnOsTest" />
-        <item itemvalue="JUnit.NonFunctionalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +216,7 @@
       <workItem from="1622773127843" duration="2969000" />
       <workItem from="1622867099653" duration="2523000" />
       <workItem from="1622886596513" duration="17488000" />
+      <workItem from="1622946690070" duration="638000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -391,38 +392,38 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622736124044" />
-    <state width="1084" height="318" key="GridCell.Tab.0.bottom" timestamp="1622922507793">
+    <state width="1084" height="318" key="GridCell.Tab.0.bottom" timestamp="1622947329725">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="318" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622922507793" />
-    <state width="1084" height="318" key="GridCell.Tab.0.center" timestamp="1622922507793">
+    <state width="1084" height="318" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622947329725" />
+    <state width="1084" height="318" key="GridCell.Tab.0.center" timestamp="1622947329724">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="318" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622922507793" />
-    <state width="1084" height="318" key="GridCell.Tab.0.left" timestamp="1622922507792">
+    <state width="1084" height="318" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622947329724" />
+    <state width="1084" height="318" key="GridCell.Tab.0.left" timestamp="1622947329724">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="318" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622922507792" />
-    <state width="1084" height="318" key="GridCell.Tab.0.right" timestamp="1622922507793">
+    <state width="1084" height="318" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622947329724" />
+    <state width="1084" height="318" key="GridCell.Tab.0.right" timestamp="1622947329724">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="318" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622922507793" />
-    <state width="1084" height="318" key="GridCell.Tab.1.bottom" timestamp="1622922507795">
+    <state width="1084" height="318" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622947329724" />
+    <state width="1084" height="318" key="GridCell.Tab.1.bottom" timestamp="1622947330622">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="318" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622922507795" />
-    <state width="1084" height="318" key="GridCell.Tab.1.center" timestamp="1622922507794">
+    <state width="1084" height="318" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622947330622" />
+    <state width="1084" height="318" key="GridCell.Tab.1.center" timestamp="1622947330621">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="318" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622922507794" />
-    <state width="1084" height="318" key="GridCell.Tab.1.left" timestamp="1622922507793">
+    <state width="1084" height="318" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622947330621" />
+    <state width="1084" height="318" key="GridCell.Tab.1.left" timestamp="1622947330621">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="318" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622922507793" />
-    <state width="1084" height="318" key="GridCell.Tab.1.right" timestamp="1622922507794">
+    <state width="1084" height="318" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622947330621" />
+    <state width="1084" height="318" key="GridCell.Tab.1.right" timestamp="1622947330621">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="318" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622922507794" />
+    <state width="1084" height="318" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622947330621" />
     <state x="537" y="0" key="SettingsEditor" timestamp="1622901173285">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -443,13 +444,45 @@
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/mvn-module/src/test/java/MyAssumptionsTest.java</url>
-          <line>13</line>
-          <properties class="MyAssumptionsTest" method="assumeFalseTest">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="5" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mvn-module/src/test/java/NestedClassTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mvn-module/src/test/java/NestedClassTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mvn-module/src/test/java/NestedClassTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mvn-module/src/test/java/NestedClassTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mvn-module/src/test/java/NestedClassTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mvn-module/src/test/java/NestedClassTest.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mvn-module/src/test/java/NestedClassTest.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mvn-module/src/test/java/NestedClassTest.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
