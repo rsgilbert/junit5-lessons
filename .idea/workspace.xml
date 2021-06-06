@@ -10,14 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Refactored tests written in chapter 3 to package stdtests">
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyRepetitionInfoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyTestInfoTest.java" afterDir="false" />
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Used RepetitionInfo and TestInfo as test method parameters. Commented out rule test classes">
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyTestReporterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/stdtests/ErrorCollectorRuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/stdtests/ErrorCollectorRuleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/stdtests/ExpectedExceptionRuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/stdtests/ExpectedExceptionRuleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/stdtests/TemporaryFolderRuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/stdtests/TemporaryFolderRuleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyRepetitionInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyRepetitionInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyTestInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyTestInfoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,32 +99,12 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyRepetitionInfoTest.simpleRepetitionTest">
+  <component name="RunManager" selected="JUnit.MyTestReporterTest.d">
     <configuration name="ExpectedExceptionRuleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="stdtests" />
       <option name="MAIN_CLASS_NAME" value="stdtests.ExpectedExceptionRuleTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpectedExceptionRuleTest.throwsNPE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="stdtests" />
-      <option name="MAIN_CLASS_NAME" value="stdtests.ExpectedExceptionRuleTest" />
-      <option name="METHOD_NAME" value="throwsNPE" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpectedExceptionRuleTest.throwsNothing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="stdtests" />
-      <option name="MAIN_CLASS_NAME" value="stdtests.ExpectedExceptionRuleTest" />
-      <option name="METHOD_NAME" value="throwsNothing" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,6 +124,25 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTestInfoTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTestReporterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvn-module" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTestReporterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTestReporterTest.d" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvn-module" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTestReporterTest" />
+      <option name="METHOD_NAME" value="d" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,19 +187,19 @@
       <item itemvalue="JUnit.Tags (Functional)" />
       <item itemvalue="JUnit.Tags (Non-functional)" />
       <item itemvalue="JUnit.Tags (Performance)" />
-      <item itemvalue="JUnit.ExpectedExceptionRuleTest.throwsNPE" />
-      <item itemvalue="JUnit.ExpectedExceptionRuleTest.throwsNothing" />
       <item itemvalue="JUnit.ExpectedExceptionRuleTest" />
       <item itemvalue="JUnit.MyTestInfoTest" />
       <item itemvalue="JUnit.MyRepetitionInfoTest.simpleRepetitionTest" />
+      <item itemvalue="JUnit.MyTestReporterTest" />
+      <item itemvalue="JUnit.MyTestReporterTest.d" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTestReporterTest.d" />
+        <item itemvalue="JUnit.MyTestReporterTest" />
         <item itemvalue="JUnit.MyRepetitionInfoTest.simpleRepetitionTest" />
         <item itemvalue="JUnit.MyTestInfoTest" />
         <item itemvalue="JUnit.ExpectedExceptionRuleTest" />
-        <item itemvalue="JUnit.ExpectedExceptionRuleTest.throwsNPE" />
-        <item itemvalue="JUnit.ExpectedExceptionRuleTest.throwsNothing" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +217,7 @@
       <workItem from="1622773127843" duration="2969000" />
       <workItem from="1622867099653" duration="2523000" />
       <workItem from="1622886596513" duration="17488000" />
-      <workItem from="1622946690070" duration="8574000" />
+      <workItem from="1622946690070" duration="9341000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -391,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622959124523</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Used RepetitionInfo and TestInfo as test method parameters. Commented out rule test classes">
+      <created>1622960552448</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1622960552448</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,7 +437,8 @@
     <MESSAGE value="Implemented ErrorCollectorRuleTest that uses ErrorCollector junit4 rule in Junit 5 jupiter test" />
     <MESSAGE value="Tested using ExpectedException rule" />
     <MESSAGE value="Refactored tests written in chapter 3 to package stdtests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored tests written in chapter 3 to package stdtests" />
+    <MESSAGE value="Used RepetitionInfo and TestInfo as test method parameters. Commented out rule test classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Used RepetitionInfo and TestInfo as test method parameters. Commented out rule test classes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" width="1280" height="1044" key="#Project_Structure" timestamp="1622952003572">
@@ -457,22 +461,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622736124044" />
-    <state width="1084" height="369" key="GridCell.Tab.0.bottom" timestamp="1622959680834">
+    <state width="1084" height="369" key="GridCell.Tab.0.bottom" timestamp="1622960617401">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622959680834" />
-    <state width="1084" height="369" key="GridCell.Tab.0.center" timestamp="1622959680834">
+    <state width="1084" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622960617401" />
+    <state width="1084" height="369" key="GridCell.Tab.0.center" timestamp="1622960617401">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622959680834" />
-    <state width="1084" height="369" key="GridCell.Tab.0.left" timestamp="1622959680833">
+    <state width="1084" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622960617401" />
+    <state width="1084" height="369" key="GridCell.Tab.0.left" timestamp="1622960617400">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622959680833" />
-    <state width="1084" height="369" key="GridCell.Tab.0.right" timestamp="1622959680834">
+    <state width="1084" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622960617400" />
+    <state width="1084" height="369" key="GridCell.Tab.0.right" timestamp="1622960617401">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622959680834" />
+    <state width="1084" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622960617401" />
     <state width="1084" height="318" key="GridCell.Tab.1.bottom" timestamp="1622948103999">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

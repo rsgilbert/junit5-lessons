@@ -4,6 +4,7 @@ import org.junit.jupiter.api.*;
 /**
  * Use the TestInfo API to get information about tests at runtime.
  * Uses Dependency Injection
+ * The builtin resolver TestInfoParameterResolver supplies an instance of TestInfo at runtime
  */
 public class MyTestInfoTest {
 
