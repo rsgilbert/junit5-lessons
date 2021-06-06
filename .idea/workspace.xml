@@ -10,10 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Used repeated tests">
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/TemporaryFolderRuleTest.java" afterDir="false" />
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Implemented TemporaryFolderRuleTest after adding support for JUnit4 to Junit jupiter migration in the pom.xml file">
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/ErrorCollectorRuleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,39 +97,40 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TemporaryFolderRuleTest.test">
-    <configuration name="MyRepeatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ErrorCollectorRuleTest">
+    <configuration name="ErrorCollectorRuleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyRepeatedTest" />
+      <option name="MAIN_CLASS_NAME" value="ErrorCollectorRuleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyRepeatedTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ErrorCollectorRuleTest.collectErrorsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyRepeatedTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="ErrorCollectorRuleTest" />
+      <option name="METHOD_NAME" value="collectErrorsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ErrorCollectorRuleTest.failRightAway" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NestedClassTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ErrorCollectorRuleTest" />
+      <option name="METHOD_NAME" value="failRightAway" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyRepeatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StackTest" />
+      <option name="MAIN_CLASS_NAME" value="MyRepeatedTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,19 +186,19 @@
       <item itemvalue="JUnit.Tags (Functional)" />
       <item itemvalue="JUnit.Tags (Non-functional)" />
       <item itemvalue="JUnit.Tags (Performance)" />
-      <item itemvalue="JUnit.NestedClassTest" />
-      <item itemvalue="JUnit.StackTest" />
-      <item itemvalue="JUnit.MyRepeatedTest.test" />
       <item itemvalue="JUnit.MyRepeatedTest" />
       <item itemvalue="JUnit.TemporaryFolderRuleTest.test" />
+      <item itemvalue="JUnit.ErrorCollectorRuleTest.collectErrorsTest" />
+      <item itemvalue="JUnit.ErrorCollectorRuleTest" />
+      <item itemvalue="JUnit.ErrorCollectorRuleTest.failRightAway" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ErrorCollectorRuleTest" />
+        <item itemvalue="JUnit.ErrorCollectorRuleTest.failRightAway" />
+        <item itemvalue="JUnit.ErrorCollectorRuleTest.collectErrorsTest" />
         <item itemvalue="JUnit.TemporaryFolderRuleTest.test" />
         <item itemvalue="JUnit.MyRepeatedTest" />
-        <item itemvalue="JUnit.MyRepeatedTest.test" />
-        <item itemvalue="JUnit.StackTest" />
-        <item itemvalue="JUnit.NestedClassTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +216,7 @@
       <workItem from="1622773127843" duration="2969000" />
       <workItem from="1622867099653" duration="2523000" />
       <workItem from="1622886596513" duration="17488000" />
-      <workItem from="1622946690070" duration="4980000" />
+      <workItem from="1622946690070" duration="5766000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -358,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622949102343</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Implemented TemporaryFolderRuleTest after adding support for JUnit4 to Junit jupiter migration in the pom.xml file">
+      <created>1622952623332</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1622952623332</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +404,8 @@
     <MESSAGE value="Implemented first nested class tests using @Nested" />
     <MESSAGE value="Implemented tests structure for a stack using nested classes in a test class" />
     <MESSAGE value="Used repeated tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Used repeated tests" />
+    <MESSAGE value="Implemented TemporaryFolderRuleTest after adding support for JUnit4 to Junit jupiter migration in the pom.xml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented TemporaryFolderRuleTest after adding support for JUnit4 to Junit jupiter migration in the pom.xml file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" width="1280" height="1044" key="#Project_Structure" timestamp="1622952003572">
@@ -416,22 +424,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622736124044" />
-    <state width="1084" height="369" key="GridCell.Tab.0.bottom" timestamp="1622949870131">
+    <state width="1084" height="369" key="GridCell.Tab.0.bottom" timestamp="1622953119632">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622949870131" />
-    <state width="1084" height="369" key="GridCell.Tab.0.center" timestamp="1622949870130">
+    <state width="1084" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622953119632" />
+    <state width="1084" height="369" key="GridCell.Tab.0.center" timestamp="1622953119631">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622949870130" />
-    <state width="1084" height="369" key="GridCell.Tab.0.left" timestamp="1622949870129">
+    <state width="1084" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622953119631" />
+    <state width="1084" height="369" key="GridCell.Tab.0.left" timestamp="1622953119631">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622949870129" />
-    <state width="1084" height="369" key="GridCell.Tab.0.right" timestamp="1622949870130">
+    <state width="1084" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622953119631" />
+    <state width="1084" height="369" key="GridCell.Tab.0.right" timestamp="1622953119631">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622949870130" />
+    <state width="1084" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622953119631" />
     <state width="1084" height="318" key="GridCell.Tab.1.bottom" timestamp="1622948103999">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
