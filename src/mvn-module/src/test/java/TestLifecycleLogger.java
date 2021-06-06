@@ -2,12 +2,14 @@ import org.junit.jupiter.api.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import static org.junit.jupiter.api.Assertions.fail;
+
 /**
  * Test interfaces
  */
 public interface TestLifecycleLogger {
 
-    static final Logger log = LoggerFactory.getLogger(TestLifecycleLogger.class.getName());
+    Logger log = LoggerFactory.getLogger(TestLifecycleLogger.class.getName());
 
     @BeforeAll
     static void beforeAllTests() {
@@ -21,11 +23,11 @@ public interface TestLifecycleLogger {
 
     @BeforeEach
     default void beforeEachTest(TestInfo testInfo) {
-        log.info("About to execute {}", testInfo.getDisplayName());
+        log.info("Before executing {}", testInfo.getDisplayName());
     }
 
     @AfterEach
     default void afterEachTest(TestInfo testInfo) {
-        log.info("Finished executing {}", testInfo.getDisplayName());
+        log.info("After executing {}", testInfo.getDisplayName());
     }
 }
