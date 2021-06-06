@@ -10,10 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Implemented CollectionsTest that demonstrates correct return types for dynamic tests">
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/DynamicExampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/StreamDynamicExampleTest.java" afterDir="false" />
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment=" Created dynamic tests using static method stream of class DynamicTest">
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/TestLifecycleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/TestLifecycleLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,36 +102,7 @@
       <recent name="$PROJECT_DIR$/gradle-module" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StreamDynamicExampleTest.streamInputIsEvenTest">
-    <configuration name="CollectionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CollectionsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectionsTest.dynamicTestsFromCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CollectionsTest" />
-      <option name="METHOD_NAME" value="dynamicTestsFromCollection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectionsTest.dynamicTestsWithInvalidReturnType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CollectionsTest" />
-      <option name="METHOD_NAME" value="dynamicTestsWithInvalidReturnType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestLifecycleImpl">
     <configuration name="DynamicExampleTest.dynamicTestsFromStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
@@ -187,23 +159,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLifecycleImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvn-module" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLifecycleImpl" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLifecycleImpl.anotherSimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvn-module" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLifecycleImpl" />
+      <option name="METHOD_NAME" value="anotherSimpleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLifecycleImpl.simpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvn-module" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLifecycleImpl" />
+      <option name="METHOD_NAME" value="simpleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.Tags (Functional)" />
       <item itemvalue="JUnit.Tags (Non-functional)" />
       <item itemvalue="JUnit.Tags (Performance)" />
-      <item itemvalue="JUnit.CollectionsTest.dynamicTestsWithInvalidReturnType" />
-      <item itemvalue="JUnit.CollectionsTest.dynamicTestsFromCollection" />
-      <item itemvalue="JUnit.CollectionsTest" />
       <item itemvalue="JUnit.DynamicExampleTest.dynamicTestsFromStream" />
       <item itemvalue="JUnit.StreamDynamicExampleTest.streamInputIsEvenTest" />
+      <item itemvalue="JUnit.TestLifecycleImpl.simpleTest" />
+      <item itemvalue="JUnit.TestLifecycleImpl" />
+      <item itemvalue="JUnit.TestLifecycleImpl.anotherSimpleTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLifecycleImpl" />
+        <item itemvalue="JUnit.TestLifecycleImpl.anotherSimpleTest" />
+        <item itemvalue="JUnit.TestLifecycleImpl.simpleTest" />
         <item itemvalue="JUnit.StreamDynamicExampleTest.streamInputIsEvenTest" />
         <item itemvalue="JUnit.DynamicExampleTest.dynamicTestsFromStream" />
-        <item itemvalue="JUnit.CollectionsTest" />
-        <item itemvalue="JUnit.CollectionsTest.dynamicTestsFromCollection" />
-        <item itemvalue="JUnit.CollectionsTest.dynamicTestsWithInvalidReturnType" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +222,7 @@
       <workItem from="1622773127843" duration="2969000" />
       <workItem from="1622867099653" duration="2523000" />
       <workItem from="1622886596513" duration="17488000" />
-      <workItem from="1622946690070" duration="14179000" />
+      <workItem from="1622946690070" duration="15393000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -426,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622965609865</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary=" Created dynamic tests using static method stream of class DynamicTest">
+      <created>1622969938200</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1622969938200</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +453,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ran unit test written with junit5 api but running with a junit4 runner. Junit5 is not imported in the pom.xml file" />
     <MESSAGE value="Implemented Extension for ignoring IOExceptions called IgnoreIOExceptionExtension and tested with it in MyExceptionTest" />
     <MESSAGE value="Implemented MyParameterResolver and DependencyInjectionTest to test how we can use extensions to provide parameters to test methods" />
     <MESSAGE value="Removed legacy modules" />
@@ -470,7 +477,8 @@
     <MESSAGE value="Implemented SimpleMultipleInputTest for testing the same logic on multiple inputs t" />
     <MESSAGE value="Used JUnit4 parameterized runner" />
     <MESSAGE value="Implemented CollectionsTest that demonstrates correct return types for dynamic tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented CollectionsTest that demonstrates correct return types for dynamic tests" />
+    <MESSAGE value=" Created dynamic tests using static method stream of class DynamicTest" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Created dynamic tests using static method stream of class DynamicTest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" width="1280" height="1044" key="#Project_Structure" timestamp="1622952003572">
@@ -497,22 +505,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622736124044" />
-    <state width="1084" height="369" key="GridCell.Tab.0.bottom" timestamp="1622966727819">
+    <state width="1084" height="369" key="GridCell.Tab.0.bottom" timestamp="1622970864209">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622966727819" />
-    <state width="1084" height="369" key="GridCell.Tab.0.center" timestamp="1622966727818">
+    <state width="1084" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622970864209" />
+    <state width="1084" height="369" key="GridCell.Tab.0.center" timestamp="1622970864207">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622966727818" />
-    <state width="1084" height="369" key="GridCell.Tab.0.left" timestamp="1622966727818">
+    <state width="1084" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622970864207" />
+    <state width="1084" height="369" key="GridCell.Tab.0.left" timestamp="1622970864207">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622966727818" />
-    <state width="1084" height="369" key="GridCell.Tab.0.right" timestamp="1622966727819">
+    <state width="1084" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622970864207" />
+    <state width="1084" height="369" key="GridCell.Tab.0.right" timestamp="1622970864209">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622966727819" />
+    <state width="1084" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622970864209" />
     <state width="1084" height="318" key="GridCell.Tab.1.bottom" timestamp="1622948103999">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -533,6 +541,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="537" y="0" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1622901173285" />
+    <state x="1079" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622969923817">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="1079" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044@0.0.1920.1044" timestamp="1622969923817" />
     <state x="895" y="91" width="905" height="862" key="find.popup" timestamp="1622948198176">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
