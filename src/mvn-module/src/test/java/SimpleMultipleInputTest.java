@@ -1,5 +1,3 @@
-package stdtests;
-
 import org.junit.Test;
 
 public class SimpleMultipleInputTest {

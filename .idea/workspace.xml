@@ -10,8 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Used TestReporter">
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/DynamicTest.java" afterDir="false" />
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Implemented SimpleMultipleInputTest for testing the same logic on multiple inputs t">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/JUnit4ParameterizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/JUnit4ParameterizedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/stdtests/SimpleMultipleInputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/SimpleMultipleInputTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,18 +88,31 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/gradle-module" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../src" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gradle-module" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.JUnit4ParameterizedTest.simpleTest">
+  <component name="RunManager" selected="JUnit.JUnit4ParameterizedTest.myParaTest">
+    <configuration name="JUnit4ParameterizedTest.myParaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvn-module" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JUnit4ParameterizedTest" />
+      <option name="METHOD_NAME" value="myParaTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JUnit4ParameterizedTest.simpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
@@ -113,15 +129,6 @@
       <option name="MAIN_CLASS_NAME" value="MyRepetitionInfoTest" />
       <option name="METHOD_NAME" value="simpleRepetitionTest(org.junit.jupiter.api.RepetitionInfo)" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTestInfoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTestInfoTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,19 +192,19 @@
       <item itemvalue="JUnit.Tags (Functional)" />
       <item itemvalue="JUnit.Tags (Non-functional)" />
       <item itemvalue="JUnit.Tags (Performance)" />
-      <item itemvalue="JUnit.MyTestInfoTest" />
       <item itemvalue="JUnit.MyRepetitionInfoTest.simpleRepetitionTest" />
       <item itemvalue="JUnit.MyTestReporterTest" />
       <item itemvalue="JUnit.MyTestReporterTest.d" />
       <item itemvalue="JUnit.JUnit4ParameterizedTest.simpleTest" />
+      <item itemvalue="JUnit.JUnit4ParameterizedTest.myParaTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JUnit4ParameterizedTest.myParaTest" />
         <item itemvalue="JUnit.JUnit4ParameterizedTest.simpleTest" />
         <item itemvalue="JUnit.MyTestReporterTest.d" />
         <item itemvalue="JUnit.MyTestReporterTest" />
         <item itemvalue="JUnit.MyRepetitionInfoTest.simpleRepetitionTest" />
-        <item itemvalue="JUnit.MyTestInfoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +222,7 @@
       <workItem from="1622773127843" duration="2969000" />
       <workItem from="1622867099653" duration="2523000" />
       <workItem from="1622886596513" duration="17488000" />
-      <workItem from="1622946690070" duration="9661000" />
+      <workItem from="1622946690070" duration="10363000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -399,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622961128816</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Implemented SimpleMultipleInputTest for testing the same logic on multiple inputs t">
+      <created>1622963878778</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1622963878778</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +432,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ran first gradle test successfully" />
     <MESSAGE value="Successfully ran maven test for junit4 using junit-vintage in a separate module called mvn-legacy-junit4-module" />
     <MESSAGE value="Successfully ran gradle test for junit4 using junit-vintage in a separate module called gradle-legacy-junit4-module" />
     <MESSAGE value="Ran unit test written with junit5 api but running with a junit4 runner. Junit5 is not imported in the pom.xml file" />
@@ -443,7 +456,8 @@
     <MESSAGE value="Refactored tests written in chapter 3 to package stdtests" />
     <MESSAGE value="Used RepetitionInfo and TestInfo as test method parameters. Commented out rule test classes" />
     <MESSAGE value="Used TestReporter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Used TestReporter" />
+    <MESSAGE value="Implemented SimpleMultipleInputTest for testing the same logic on multiple inputs t" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented SimpleMultipleInputTest for testing the same logic on multiple inputs t" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" width="1280" height="1044" key="#Project_Structure" timestamp="1622952003572">
@@ -462,26 +476,30 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1096" y="425" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1622959055741" />
+    <state x="1054" y="352" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1622963896920">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="1054" y="352" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1044@0.0.1920.1044" timestamp="1622963896920" />
     <state x="1178" y="219" key="FileChooserDialogImpl" timestamp="1622736124044">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622736124044" />
-    <state width="1084" height="369" key="GridCell.Tab.0.bottom" timestamp="1622961044189">
+    <state width="1084" height="369" key="GridCell.Tab.0.bottom" timestamp="1622964292051">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622961044189" />
-    <state width="1084" height="369" key="GridCell.Tab.0.center" timestamp="1622961044188">
+    <state width="1084" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622964292051" />
+    <state width="1084" height="369" key="GridCell.Tab.0.center" timestamp="1622964292051">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622961044188" />
-    <state width="1084" height="369" key="GridCell.Tab.0.left" timestamp="1622961044188">
+    <state width="1084" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622964292051" />
+    <state width="1084" height="369" key="GridCell.Tab.0.left" timestamp="1622964292050">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622961044188" />
-    <state width="1084" height="369" key="GridCell.Tab.0.right" timestamp="1622961044189">
+    <state width="1084" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622964292050" />
+    <state width="1084" height="369" key="GridCell.Tab.0.right" timestamp="1622964292051">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622961044189" />
+    <state width="1084" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622964292051" />
     <state width="1084" height="318" key="GridCell.Tab.1.bottom" timestamp="1622948103999">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
