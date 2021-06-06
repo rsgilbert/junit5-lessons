@@ -10,14 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Created interface and implementation for TestLifecycle tests">
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/TestInterfaceDynamicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/TimeExecutionLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/TimingExtension.java" afterDir="false" />
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Implemented timing extension that tells how long a test took to run">
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyTestTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyTestTemplateInvocationContextProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/DynamicExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/DynamicExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/TestLifecycleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/TestLifecycleImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/TestLifecycleLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/TestLifecycleLogger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,12 +101,22 @@
       <recent name="$PROJECT_DIR$/gradle-module" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLifecycleImpl">
+  <component name="RunManager" selected="JUnit.MyTestTemplate.testTemplate">
     <configuration name="DynamicExampleTest.dynamicTestInputsAreLessThan10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DynamicExampleTest" />
       <option name="METHOD_NAME" value="dynamicTestInputsAreLessThan10" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTestTemplate.testTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvn-module" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTestTemplate" />
+      <option name="METHOD_NAME" value="testTemplate(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,16 +177,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLifecycleImpl.anotherSimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLifecycleImpl" />
-      <option name="METHOD_NAME" value="anotherSimpleTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestLifecycleImpl.simpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
@@ -197,17 +193,17 @@
       <item itemvalue="JUnit.Tags (Performance)" />
       <item itemvalue="JUnit.TestLifecycleImpl.simpleTest" />
       <item itemvalue="JUnit.TestLifecycleImpl" />
-      <item itemvalue="JUnit.TestLifecycleImpl.anotherSimpleTest" />
       <item itemvalue="JUnit.TestInterfaceDynamicTest.dynamicTestInputsAreLessThan10" />
       <item itemvalue="JUnit.DynamicExampleTest.dynamicTestInputsAreLessThan10" />
+      <item itemvalue="JUnit.MyTestTemplate.testTemplate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTestTemplate.testTemplate" />
         <item itemvalue="JUnit.TestLifecycleImpl" />
         <item itemvalue="JUnit.TestLifecycleImpl.simpleTest" />
         <item itemvalue="JUnit.DynamicExampleTest.dynamicTestInputsAreLessThan10" />
         <item itemvalue="JUnit.TestInterfaceDynamicTest.dynamicTestInputsAreLessThan10" />
-        <item itemvalue="JUnit.TestLifecycleImpl.anotherSimpleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +222,7 @@
       <workItem from="1622867099653" duration="2523000" />
       <workItem from="1622886596513" duration="17488000" />
       <workItem from="1622946690070" duration="18417000" />
-      <workItem from="1622986352908" duration="1930000" />
+      <workItem from="1622986352908" duration="3384000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -445,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622971123006</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Implemented timing extension that tells how long a test took to run">
+      <created>1622988305778</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1622988305778</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +467,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented MyParameterResolver and DependencyInjectionTest to test how we can use extensions to provide parameters to test methods" />
     <MESSAGE value="Removed legacy modules" />
     <MESSAGE value="Used DisplayName to name the tests" />
     <MESSAGE value="Performed group test with assertAll" />
@@ -489,7 +491,8 @@
     <MESSAGE value="Implemented CollectionsTest that demonstrates correct return types for dynamic tests" />
     <MESSAGE value=" Created dynamic tests using static method stream of class DynamicTest" />
     <MESSAGE value="Created interface and implementation for TestLifecycle tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created interface and implementation for TestLifecycle tests" />
+    <MESSAGE value="Implemented timing extension that tells how long a test took to run" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented timing extension that tells how long a test took to run" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" width="1280" height="1044" key="#Project_Structure" timestamp="1622952003572">
@@ -500,6 +503,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="579" y="156" width="1232" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1622911980317" />
+    <state x="1119" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1622992771563">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="1119" y="155" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1622992771563" />
     <state x="867" y="248" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1622911841195">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
