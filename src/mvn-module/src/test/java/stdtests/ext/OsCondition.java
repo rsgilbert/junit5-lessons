@@ -1,12 +1,12 @@
-package ext;
+package stdtests.ext;
 
 
-import meta.MyDisabledOnOs;
+import stdtests.meta.MyDisabledOnOs;
 import org.junit.jupiter.api.extension.ConditionEvaluationResult;
 import org.junit.jupiter.api.extension.ExecutionCondition;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.platform.commons.util.AnnotationUtils;
-import util.Os;
+import stdtests.util.Os;
 
 import java.lang.reflect.AnnotatedElement;
 import java.util.Arrays;

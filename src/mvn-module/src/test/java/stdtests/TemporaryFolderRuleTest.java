@@ -1,3 +1,5 @@
+package stdtests;
+
 import org.junit.Rule;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;

@@ -1,10 +1,10 @@
-import meta.Functional;
-import meta.Load;
-import org.junit.jupiter.api.Tag;
+package stdtests;
+
+import stdtests.meta.Functional;
 import org.junit.jupiter.api.Test;
 
 /**
- * Use meta-annotation @Functional to tag the test class as "functional"
+ * Use stdtests.meta-annotation @Functional to tag the test class as "functional"
  */
 @Functional
 public class FunctionalTest {

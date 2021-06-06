@@ -1,4 +1,4 @@
-package util;
+package stdtests.util;
 
 /**
  * Utility enumeration to select one operating system

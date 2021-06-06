@@ -1,4 +1,4 @@
-package meta;
+package stdtests.meta;
 
 import org.junit.jupiter.api.Tag;
 

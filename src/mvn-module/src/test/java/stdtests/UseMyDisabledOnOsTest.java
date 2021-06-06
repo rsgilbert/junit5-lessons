@@ -1,7 +1,8 @@
-import meta.MyDisabledOnOs;
+package stdtests;
+
+import stdtests.meta.MyDisabledOnOs;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.condition.DisabledOnOs;
-import util.Os;
+import stdtests.util.Os;
 
 public class UseMyDisabledOnOsTest {
 

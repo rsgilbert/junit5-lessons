@@ -7,4 +7,4 @@
 mvn test
 
 run a particular test class
-mvn test -Dtest=MyExceptionTest
+mvn test -Dtest=stdtests.MyExceptionTest

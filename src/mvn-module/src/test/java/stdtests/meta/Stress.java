@@ -1,5 +1,4 @@
-package meta;
-
+package stdtests.meta;
 
 import org.junit.jupiter.api.Tag;
 
@@ -8,12 +7,10 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-
-/**
- * Custom meta-annotation for functional tag
- */
 @Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
-@Tag("functional")
-public @interface Functional {
+@Tag("non-functional")
+@Tag("performance")
+@Tag("stress")
+public @interface Stress {
 }

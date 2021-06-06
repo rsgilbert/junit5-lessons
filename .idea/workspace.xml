@@ -10,8 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Implemented ErrorCollectorRuleTest that uses ErrorCollector junit4 rule in Junit 5 jupiter test">
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/ExpectedExceptionRuleTest.java" afterDir="false" />
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Tested using ExpectedException rule">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,8 +99,8 @@
   <component name="RunManager" selected="JUnit.ExpectedExceptionRuleTest">
     <configuration name="ErrorCollectorRuleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ErrorCollectorRuleTest" />
+      <option name="PACKAGE_NAME" value="stdtests" />
+      <option name="MAIN_CLASS_NAME" value="stdtests.ErrorCollectorRuleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,8 +108,8 @@
     </configuration>
     <configuration name="ErrorCollectorRuleTest.failRightAway" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ErrorCollectorRuleTest" />
+      <option name="PACKAGE_NAME" value="stdtests" />
+      <option name="MAIN_CLASS_NAME" value="stdtests.ErrorCollectorRuleTest" />
       <option name="METHOD_NAME" value="failRightAway" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -119,8 +118,8 @@
     </configuration>
     <configuration name="ExpectedExceptionRuleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExpectedExceptionRuleTest" />
+      <option name="PACKAGE_NAME" value="stdtests" />
+      <option name="MAIN_CLASS_NAME" value="stdtests.ExpectedExceptionRuleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,8 +127,8 @@
     </configuration>
     <configuration name="ExpectedExceptionRuleTest.throwsNPE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExpectedExceptionRuleTest" />
+      <option name="PACKAGE_NAME" value="stdtests" />
+      <option name="MAIN_CLASS_NAME" value="stdtests.ExpectedExceptionRuleTest" />
       <option name="METHOD_NAME" value="throwsNPE" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -138,8 +137,8 @@
     </configuration>
     <configuration name="ExpectedExceptionRuleTest.throwsNothing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExpectedExceptionRuleTest" />
+      <option name="PACKAGE_NAME" value="stdtests" />
+      <option name="MAIN_CLASS_NAME" value="stdtests.ExpectedExceptionRuleTest" />
       <option name="METHOD_NAME" value="throwsNothing" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -216,7 +215,7 @@
       <workItem from="1622773127843" duration="2969000" />
       <workItem from="1622867099653" duration="2523000" />
       <workItem from="1622886596513" duration="17488000" />
-      <workItem from="1622946690070" duration="6586000" />
+      <workItem from="1622946690070" duration="7349000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -372,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622953476569</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Tested using ExpectedException rule">
+      <created>1622954094211</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1622954094211</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +419,8 @@
     <MESSAGE value="Used repeated tests" />
     <MESSAGE value="Implemented TemporaryFolderRuleTest after adding support for JUnit4 to Junit jupiter migration in the pom.xml file" />
     <MESSAGE value="Implemented ErrorCollectorRuleTest that uses ErrorCollector junit4 rule in Junit 5 jupiter test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented ErrorCollectorRuleTest that uses ErrorCollector junit4 rule in Junit 5 jupiter test" />
+    <MESSAGE value="Tested using ExpectedException rule" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tested using ExpectedException rule" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" width="1280" height="1044" key="#Project_Structure" timestamp="1622952003572">
@@ -432,22 +439,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622736124044" />
-    <state width="1084" height="369" key="GridCell.Tab.0.bottom" timestamp="1622953951063">
+    <state width="1084" height="369" key="GridCell.Tab.0.bottom" timestamp="1622954115087">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622953951063" />
-    <state width="1084" height="369" key="GridCell.Tab.0.center" timestamp="1622953951062">
+    <state width="1084" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622954115087" />
+    <state width="1084" height="369" key="GridCell.Tab.0.center" timestamp="1622954115083">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622953951062" />
-    <state width="1084" height="369" key="GridCell.Tab.0.left" timestamp="1622953951062">
+    <state width="1084" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622954115083" />
+    <state width="1084" height="369" key="GridCell.Tab.0.left" timestamp="1622954115081">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622953951062" />
-    <state width="1084" height="369" key="GridCell.Tab.0.right" timestamp="1622953951063">
+    <state width="1084" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622954115081" />
+    <state width="1084" height="369" key="GridCell.Tab.0.right" timestamp="1622954115085">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1084" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622953951063" />
+    <state width="1084" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622954115085" />
     <state width="1084" height="318" key="GridCell.Tab.1.bottom" timestamp="1622948103999">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

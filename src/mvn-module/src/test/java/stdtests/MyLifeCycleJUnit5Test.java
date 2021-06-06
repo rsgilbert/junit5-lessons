@@ -1,3 +1,5 @@
+package stdtests;
+
 import org.junit.jupiter.api.*;
 
 @DisplayName("JUnit5 Lifecycle tests")

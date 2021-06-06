@@ -1,3 +1,5 @@
+package stdtests;
+
 import org.junit.Rule;
 import org.junit.jupiter.api.Assumptions;
 import org.junit.jupiter.api.DisplayName;

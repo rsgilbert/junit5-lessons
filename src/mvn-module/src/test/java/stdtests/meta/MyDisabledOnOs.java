@@ -1,9 +1,9 @@
-package meta;
+package stdtests.meta;
 
 
-import ext.OsCondition;
+import stdtests.ext.OsCondition;
 import org.junit.jupiter.api.extension.ExtendWith;
-import util.Os;
+import stdtests.util.Os;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

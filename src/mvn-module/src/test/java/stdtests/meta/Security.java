@@ -1,4 +1,5 @@
-package meta;
+package stdtests.meta;
+
 
 import org.junit.jupiter.api.Tag;
 
@@ -9,8 +10,7 @@ import java.lang.annotation.Target;
 
 @Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
-@Tag("non-functional")
-@Tag("performance")
-@Tag("stress")
-public @interface Stress {
+@Tag("functional")
+@Tag("security")
+public @interface Security {
 }
