@@ -1,9 +1,6 @@
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.Arguments;
-import org.junit.jupiter.params.provider.EnumSource;
-import org.junit.jupiter.params.provider.MethodSource;
-import org.junit.jupiter.params.provider.ValueSource;
+import org.junit.jupiter.params.provider.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -131,6 +128,25 @@ public class MyParameterizedTest {
         log.info("Your color {} is {}, you score marks", color.getName(), comment);
 
     }
+
+    // -- with csv --
+    // Read content formatted in CSV format
+    @ParameterizedTest
+    @CsvSource({ "hello, 1, there", "world, 2, 'wide web'", "'great having you here', 3, 'my dear'" })
+    void testWithCsvSource(String first, int second, String third) {
+        System.out.println(second + " " + first + " " + third);
+    }
+
+    // Read content stored in a CSV file
+    @ParameterizedTest
+    @CsvFileSource(resources = "/numbers.csv")
+    void numbersInCSVFileAreLessThanLastTest(int num1, int num2, int greaterNum) {
+        log.info("num1 is {}, num2 is {}, greaterNum is {}", new Object[]{ num1, num2, greaterNum });
+        assertTrue(num1 + num2 <= greaterNum);
+    }
+
+
+
 
 
 
