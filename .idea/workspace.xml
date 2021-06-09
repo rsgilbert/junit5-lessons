@@ -10,9 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Tested parameterized test with ArgumentSource where we specify a custom class to provide the arguments">
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Tested parameterized test using multiple custom @ArgumentSources at once">
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/ArgumentConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/TestType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyParameterizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyParameterizedTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,52 +101,52 @@
       <recent name="$PROJECT_DIR$/gradle-module" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyParameterizedTest.myManyArgumentsSourceTest">
-    <configuration name="MyParameterizedTest.myArgumentsSourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArgumentConversion.testExplicitConversionFromStringToEnum">
+    <configuration name="ArgumentConversion.testExplicitConversionFromStringToEnum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyParameterizedTest" />
-      <option name="METHOD_NAME" value="myArgumentsSourceTest(java.lang.String,java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="ArgumentConversion" />
+      <option name="METHOD_NAME" value="testExplicitConversionFromStringToEnum(ArgumentConversion$Creature)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyParameterizedTest.myManyArgumentsSourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArgumentConversion.testImplicitConversionToEnum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyParameterizedTest" />
-      <option name="METHOD_NAME" value="myManyArgumentsSourceTest(java.lang.String,java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="ArgumentConversion" />
+      <option name="METHOD_NAME" value="testImplicitConversionToEnum(ArgumentConversion$Creature)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyParameterizedTest.numbersInCSVFileAreLessThanLastTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArgumentConversion.testImplicitConversionToLocalDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyParameterizedTest" />
-      <option name="METHOD_NAME" value="numbersInCSVFileAreLessThanLastTest(int,int,int)" />
+      <option name="MAIN_CLASS_NAME" value="ArgumentConversion" />
+      <option name="METHOD_NAME" value="testImplicitConversionToLocalDate(java.time.LocalDate)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyParameterizedTest.testMultipleArguments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArgumentConversion.testWithExplicitConversion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyParameterizedTest" />
-      <option name="METHOD_NAME" value="testMultipleArguments(java.lang.String,MyParameterizedTest$Color,int)" />
+      <option name="MAIN_CLASS_NAME" value="ArgumentConversion" />
+      <option name="METHOD_NAME" value="testWithExplicitConversion(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyParameterizedTest.testWithCsvSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArgumentConversion.testWithImplicitConversionToInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyParameterizedTest" />
-      <option name="METHOD_NAME" value="testWithCsvSource(java.lang.String,int,java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="ArgumentConversion" />
+      <option name="METHOD_NAME" value="testWithImplicitConversionToInteger(java.lang.Integer)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,19 +192,19 @@
       <item itemvalue="JUnit.Tags (Functional)" />
       <item itemvalue="JUnit.Tags (Non-functional)" />
       <item itemvalue="JUnit.Tags (Performance)" />
-      <item itemvalue="JUnit.MyParameterizedTest.testMultipleArguments" />
-      <item itemvalue="JUnit.MyParameterizedTest.testWithCsvSource" />
-      <item itemvalue="JUnit.MyParameterizedTest.numbersInCSVFileAreLessThanLastTest" />
-      <item itemvalue="JUnit.MyParameterizedTest.myArgumentsSourceTest" />
-      <item itemvalue="JUnit.MyParameterizedTest.myManyArgumentsSourceTest" />
+      <item itemvalue="JUnit.ArgumentConversion.testWithImplicitConversionToInteger" />
+      <item itemvalue="JUnit.ArgumentConversion.testImplicitConversionToEnum" />
+      <item itemvalue="JUnit.ArgumentConversion.testImplicitConversionToLocalDate" />
+      <item itemvalue="JUnit.ArgumentConversion.testWithExplicitConversion" />
+      <item itemvalue="JUnit.ArgumentConversion.testExplicitConversionFromStringToEnum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyParameterizedTest.myManyArgumentsSourceTest" />
-        <item itemvalue="JUnit.MyParameterizedTest.myArgumentsSourceTest" />
-        <item itemvalue="JUnit.MyParameterizedTest.numbersInCSVFileAreLessThanLastTest" />
-        <item itemvalue="JUnit.MyParameterizedTest.testWithCsvSource" />
-        <item itemvalue="JUnit.MyParameterizedTest.testMultipleArguments" />
+        <item itemvalue="JUnit.ArgumentConversion.testExplicitConversionFromStringToEnum" />
+        <item itemvalue="JUnit.ArgumentConversion.testWithExplicitConversion" />
+        <item itemvalue="JUnit.ArgumentConversion.testImplicitConversionToLocalDate" />
+        <item itemvalue="JUnit.ArgumentConversion.testImplicitConversionToEnum" />
+        <item itemvalue="JUnit.ArgumentConversion.testWithImplicitConversionToInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +224,7 @@
       <workItem from="1622886596513" duration="17488000" />
       <workItem from="1622946690070" duration="18417000" />
       <workItem from="1622986352908" duration="5986000" />
-      <workItem from="1623232754954" duration="7079000" />
+      <workItem from="1623232754954" duration="12952000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -477,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623240583949</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Tested parameterized test using multiple custom @ArgumentSources at once">
+      <created>1623241563062</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1623241563062</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +504,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Performed timeout tests" />
     <MESSAGE value="Used hamcrest matchers and assertThat MatcherAssert" />
     <MESSAGE value="Executing tests from maven using groups to filter tests by tags" />
     <MESSAGE value="Created run configurations using Intellij Junit5 tag support. Created and ran tag configurations for functional, non-functional and performance tags. Reference guidance: https://www.baeldung.com/junit-filtering-tests" />
@@ -521,7 +528,8 @@
     <MESSAGE value="Tested parameterized test with MethodSource" />
     <MESSAGE value="Tested parameterized test with CsvSource" />
     <MESSAGE value="Tested parameterized test with ArgumentSource where we specify a custom class to provide the arguments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tested parameterized test with ArgumentSource where we specify a custom class to provide the arguments" />
+    <MESSAGE value="Tested parameterized test using multiple custom @ArgumentSources at once" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tested parameterized test using multiple custom @ArgumentSources at once" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" width="1280" height="1044" key="#Project_Structure" timestamp="1622952003572">
@@ -532,10 +540,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="579" y="156" width="1232" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1622911980317" />
-    <state x="1119" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1622992771563">
+    <state x="1119" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1623253456794">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="1119" y="155" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1622992771563" />
+    <state x="1119" y="155" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1623253456794" />
     <state x="867" y="248" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1622911841195">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -552,22 +560,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622736124044" />
-    <state width="959" height="313" key="GridCell.Tab.0.bottom" timestamp="1623241393816">
+    <state width="959" height="313" key="GridCell.Tab.0.bottom" timestamp="1623253313763">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="959" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1623241393816" />
-    <state width="959" height="313" key="GridCell.Tab.0.center" timestamp="1623241393815">
+    <state width="959" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1623253313763" />
+    <state width="959" height="313" key="GridCell.Tab.0.center" timestamp="1623253313763">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="959" height="313" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1623241393815" />
-    <state width="959" height="313" key="GridCell.Tab.0.left" timestamp="1623241393815">
+    <state width="959" height="313" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1623253313763" />
+    <state width="959" height="313" key="GridCell.Tab.0.left" timestamp="1623253313762">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="959" height="313" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1623241393815" />
-    <state width="959" height="313" key="GridCell.Tab.0.right" timestamp="1623241393816">
+    <state width="959" height="313" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1623253313762" />
+    <state width="959" height="313" key="GridCell.Tab.0.right" timestamp="1623253313763">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="959" height="313" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1623241393816" />
+    <state width="959" height="313" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1623253313763" />
     <state width="1084" height="318" key="GridCell.Tab.1.bottom" timestamp="1622948103999">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
