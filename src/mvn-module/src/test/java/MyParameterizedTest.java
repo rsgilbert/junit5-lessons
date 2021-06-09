@@ -1,4 +1,6 @@
+import com.sun.org.apache.xpath.internal.Arg;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
 import org.slf4j.Logger;
@@ -144,6 +146,37 @@ public class MyParameterizedTest {
         log.info("num1 is {}, num2 is {}, greaterNum is {}", new Object[]{ num1, num2, greaterNum });
         assertTrue(num1 + num2 <= greaterNum);
     }
+
+
+    // -- argument source --
+    @ParameterizedTest
+    @ArgumentsSource(MyCustomArgumentsProvider.class)
+    void myArgumentsSourceTest(String message1, String message2) {
+        log.info("Message 1 is {} and message 2 is {}", new Object[] { message1, message2 });
+    }
+
+    /**
+     * Returns a stream of arguments used as source of arguments
+     * Reusable in different tests
+     * We are using a nested class here so we have to make it static else we will get a JUnitException
+     */
+     static class MyCustomArgumentsProvider implements ArgumentsProvider {
+        private Logger log = LoggerFactory.getLogger(getClass());
+
+        @Override
+        public Stream<? extends Arguments> provideArguments(
+                ExtensionContext context
+        ) {
+            log.info("Called argument provider to test " + context.getTestMethod().get().getName());
+            // returns a stream of Arguments
+            return Stream.of(
+                    Arguments.of("hi", "you"),
+                    Arguments.of("I am okay", "and you?")
+            );
+        }
+
+    }
+
 
 
 
