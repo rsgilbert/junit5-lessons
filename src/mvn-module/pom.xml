@@ -31,6 +31,13 @@
             <scope>test</scope>
         </dependency>
 
+<!--        Parameterized tests -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.5.1</version>
+            <scope>test</scope>
+        </dependency>
 
 
 <!--        JUnit4 support -->

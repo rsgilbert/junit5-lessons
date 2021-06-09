@@ -10,10 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Implemented timing extension that tells how long a test took to run">
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyTestTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyTestTemplateInvocationContextProvider.java" afterDir="false" />
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Implemented MyTestTemplate and MyTestTemplateInvocationContextProvider">
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyParameterizedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,22 +101,52 @@
       <recent name="$PROJECT_DIR$/gradle-module" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyTestTemplate.testTemplate">
-    <configuration name="DynamicExampleTest.dynamicTestInputsAreLessThan10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyParameterizedTest.testMultipleArguments">
+    <configuration name="MyParameterizedTest.testMultipleArguments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DynamicExampleTest" />
-      <option name="METHOD_NAME" value="dynamicTestInputsAreLessThan10" />
+      <option name="MAIN_CLASS_NAME" value="MyParameterizedTest" />
+      <option name="METHOD_NAME" value="testMultipleArguments(java.lang.String,MyParameterizedTest$Color,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTestTemplate.testTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyParameterizedTest.testWithDoubles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTestTemplate" />
-      <option name="METHOD_NAME" value="testTemplate(java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="MyParameterizedTest" />
+      <option name="METHOD_NAME" value="testWithDoubles(double)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyParameterizedTest.testWithInts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvn-module" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyParameterizedTest" />
+      <option name="METHOD_NAME" value="testWithInts(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyParameterizedTest.testWithLongs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvn-module" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyParameterizedTest" />
+      <option name="METHOD_NAME" value="testWithLongs(long)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyParameterizedTest.testWithStringProvider" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvn-module" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyParameterizedTest" />
+      <option name="METHOD_NAME" value="testWithStringProvider(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,52 +188,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInterfaceDynamicTest.dynamicTestInputsAreLessThan10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestInterfaceDynamicTest" />
-      <option name="METHOD_NAME" value="dynamicTestInputsAreLessThan10" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLifecycleImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLifecycleImpl" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLifecycleImpl.simpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLifecycleImpl" />
-      <option name="METHOD_NAME" value="simpleTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.Tags (Functional)" />
       <item itemvalue="JUnit.Tags (Non-functional)" />
       <item itemvalue="JUnit.Tags (Performance)" />
-      <item itemvalue="JUnit.TestLifecycleImpl.simpleTest" />
-      <item itemvalue="JUnit.TestLifecycleImpl" />
-      <item itemvalue="JUnit.TestInterfaceDynamicTest.dynamicTestInputsAreLessThan10" />
-      <item itemvalue="JUnit.DynamicExampleTest.dynamicTestInputsAreLessThan10" />
-      <item itemvalue="JUnit.MyTestTemplate.testTemplate" />
+      <item itemvalue="JUnit.MyParameterizedTest.testWithStringProvider" />
+      <item itemvalue="JUnit.MyParameterizedTest.testWithLongs" />
+      <item itemvalue="JUnit.MyParameterizedTest.testWithDoubles" />
+      <item itemvalue="JUnit.MyParameterizedTest.testWithInts" />
+      <item itemvalue="JUnit.MyParameterizedTest.testMultipleArguments" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyTestTemplate.testTemplate" />
-        <item itemvalue="JUnit.TestLifecycleImpl" />
-        <item itemvalue="JUnit.TestLifecycleImpl.simpleTest" />
-        <item itemvalue="JUnit.DynamicExampleTest.dynamicTestInputsAreLessThan10" />
-        <item itemvalue="JUnit.TestInterfaceDynamicTest.dynamicTestInputsAreLessThan10" />
+        <item itemvalue="JUnit.MyParameterizedTest.testMultipleArguments" />
+        <item itemvalue="JUnit.MyParameterizedTest.testWithInts" />
+        <item itemvalue="JUnit.MyParameterizedTest.testWithDoubles" />
+        <item itemvalue="JUnit.MyParameterizedTest.testWithLongs" />
+        <item itemvalue="JUnit.MyParameterizedTest.testWithStringProvider" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +223,8 @@
       <workItem from="1622867099653" duration="2523000" />
       <workItem from="1622886596513" duration="17488000" />
       <workItem from="1622946690070" duration="18417000" />
-      <workItem from="1622986352908" duration="3384000" />
+      <workItem from="1622986352908" duration="5986000" />
+      <workItem from="1623232754954" duration="3046000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -448,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622988305778</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Implemented MyTestTemplate and MyTestTemplateInvocationContextProvider">
+      <created>1622993234551</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1622993234551</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +476,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed legacy modules" />
     <MESSAGE value="Used DisplayName to name the tests" />
     <MESSAGE value="Performed group test with assertAll" />
     <MESSAGE value="Tested throwing exceptions" />
@@ -492,7 +500,8 @@
     <MESSAGE value=" Created dynamic tests using static method stream of class DynamicTest" />
     <MESSAGE value="Created interface and implementation for TestLifecycle tests" />
     <MESSAGE value="Implemented timing extension that tells how long a test took to run" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented timing extension that tells how long a test took to run" />
+    <MESSAGE value="Implemented MyTestTemplate and MyTestTemplateInvocationContextProvider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented MyTestTemplate and MyTestTemplateInvocationContextProvider" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" width="1280" height="1044" key="#Project_Structure" timestamp="1622952003572">
@@ -523,22 +532,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622736124044" />
-    <state width="1074" height="369" key="GridCell.Tab.0.bottom" timestamp="1622987792289">
+    <state width="1015" height="369" key="GridCell.Tab.0.bottom" timestamp="1623235063810">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1074" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1622987792289" />
-    <state width="1074" height="369" key="GridCell.Tab.0.center" timestamp="1622987792289">
+    <state width="1015" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1623235063810" />
+    <state width="1015" height="369" key="GridCell.Tab.0.center" timestamp="1623235063810">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1074" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1622987792289" />
-    <state width="1074" height="369" key="GridCell.Tab.0.left" timestamp="1622987792289">
+    <state width="1015" height="369" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1623235063810" />
+    <state width="1015" height="369" key="GridCell.Tab.0.left" timestamp="1623235063809">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1074" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1622987792289" />
-    <state width="1074" height="369" key="GridCell.Tab.0.right" timestamp="1622987792289">
+    <state width="1015" height="369" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1623235063809" />
+    <state width="1015" height="369" key="GridCell.Tab.0.right" timestamp="1623235063810">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1074" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622987792289" />
+    <state width="1015" height="369" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1623235063810" />
     <state width="1084" height="318" key="GridCell.Tab.1.bottom" timestamp="1622948103999">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
