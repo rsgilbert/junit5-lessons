@@ -213,8 +213,21 @@ public class MyParameterizedTest {
 
     }
 
+    // -- Custom Names for parameterized tests --
 
+    @DisplayName("My test with custom names shown")
+    @ParameterizedTest(name="{index} 1st arg:\"{0}\", 2nd arg:{1}. All args are {arguments}")
+    @CsvSource({"Gil, 1", "Rob, 2","Milcah, 3"})
+    void testCustomNameForParameterizedTest(String arg1, int arg2) {
+        log.info("Testing with parameters: arg 1: {}, arg2: {}", new Object[] {arg1, arg2});
+    }
 
+    @DisplayName("Test2, Custom names for parameterized test")
+    @ParameterizedTest(name="Test {index}, Args: {arguments}")
+    @CsvSource({"1, Hi, TRUE", "2, There, FALSE", "3, 'How are you', true"})
+    void testNamingParameterizedTest2(int arg1, String arg2, boolean arg3) {
+        log.info("Parameters are: {}, {}, {}", new Object[]{ arg1, arg2, arg3});
+    }
 
 
 
