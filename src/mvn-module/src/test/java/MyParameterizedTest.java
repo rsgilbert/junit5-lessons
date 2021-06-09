@@ -155,6 +155,22 @@ public class MyParameterizedTest {
         log.info("Message 1 is {} and message 2 is {}", new Object[] { message1, message2 });
     }
 
+    // multiple argument sources
+    // We can provide many annotations of this type
+    // because ArgumentSource is a repeatable annotation
+    @ParameterizedTest
+    // Commented out below to illustrate the alternative @ArgumentSources but works as well
+//    @ArgumentsSource(MyCustomArgumentsProvider.class)
+//    @ArgumentsSource(MySecondCustomArgumentsProvider.class)
+//    @ArgumentsSource(MyCustomArgumentsProvider.class) // will not be repeated since it is a duplicate
+    // Using argument sources to contain the multiple ArgumentsSource's
+    @ArgumentsSources({
+            @ArgumentsSource(MySecondCustomArgumentsProvider.class),
+            @ArgumentsSource(MyCustomArgumentsProvider.class)
+    })
+    void myManyArgumentsSourceTest(String message1, String message2) {
+        log.info("Message 1 is {} and message 2 is {}", new Object[] { message1, message2 });
+    }
     /**
      * Returns a stream of arguments used as source of arguments
      * Reusable in different tests
@@ -172,6 +188,26 @@ public class MyParameterizedTest {
             return Stream.of(
                     Arguments.of("hi", "you"),
                     Arguments.of("I am okay", "and you?")
+            );
+        }
+
+    }
+
+    /**
+     * Second custom argument provider
+     */
+    static class MySecondCustomArgumentsProvider implements ArgumentsProvider {
+        private Logger log = LoggerFactory.getLogger(getClass());
+
+        @Override
+        public Stream<? extends Arguments> provideArguments(
+                ExtensionContext context
+        ) {
+            log.info("Called the second argument provider to test  " + context.getTestMethod().get().getName());
+            // returns a stream of Arguments
+            return Stream.of(
+                    Arguments.of("When ", "will you ever say"),
+                    Arguments.of("I just walked away", "but I will always love you.")
             );
         }
 
