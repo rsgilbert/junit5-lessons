@@ -10,9 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Wrote tests on argument conversion">
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Wrote test with custom name for parameterized tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyParameterizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyParameterizedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -223,7 +223,8 @@
       <workItem from="1622886596513" duration="17488000" />
       <workItem from="1622946690070" duration="18417000" />
       <workItem from="1622986352908" duration="5986000" />
-      <workItem from="1623232754954" duration="15061000" />
+      <workItem from="1623232754954" duration="15740000" />
+      <workItem from="1623471181584" duration="1062000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -491,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623254136236</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Wrote test with custom name for parameterized tests">
+      <created>1623260160642</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1623260160642</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,7 +518,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Executing tests from maven using groups to filter tests by tags" />
     <MESSAGE value="Created run configurations using Intellij Junit5 tag support. Created and ran tag configurations for functional, non-functional and performance tags. Reference guidance: https://www.baeldung.com/junit-filtering-tests" />
     <MESSAGE value="Created and used meta-annotations to tag tests" />
     <MESSAGE value="Performed conditional test execution using custom annotation and a custom extension of ExecutionCondition called OsCondition" />
@@ -535,7 +542,8 @@
     <MESSAGE value="Tested parameterized test with ArgumentSource where we specify a custom class to provide the arguments" />
     <MESSAGE value="Tested parameterized test using multiple custom @ArgumentSources at once" />
     <MESSAGE value="Wrote tests on argument conversion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrote tests on argument conversion" />
+    <MESSAGE value="Wrote test with custom name for parameterized tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrote test with custom name for parameterized tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" width="1280" height="1044" key="#Project_Structure" timestamp="1622952003572">
@@ -562,26 +570,30 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1054" y="352" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1044@0.0.1920.1044" timestamp="1622963896920" />
-    <state x="1178" y="219" key="FileChooserDialogImpl" timestamp="1622736124044">
+    <state x="643" y="157" width="623" height="736" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1623471197457">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="1178" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1622736124044" />
-    <state width="1860" height="313" key="GridCell.Tab.0.bottom" timestamp="1623260111514">
+    <state x="643" y="157" width="623" height="736" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1044@0.0.1920.1044" timestamp="1623471197457" />
+    <state x="1062" y="219" key="FileChooserDialogImpl" timestamp="1623471449196">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1860" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1623260111514" />
-    <state width="1860" height="313" key="GridCell.Tab.0.center" timestamp="1623260111513">
+    <state x="1062" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1623471449196" />
+    <state width="959" height="313" key="GridCell.Tab.0.bottom" timestamp="1623291939105">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1860" height="313" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1623260111513" />
-    <state width="1860" height="313" key="GridCell.Tab.0.left" timestamp="1623260111513">
+    <state width="959" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1623291939105" />
+    <state width="959" height="313" key="GridCell.Tab.0.center" timestamp="1623291939103">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1860" height="313" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1623260111513" />
-    <state width="1860" height="313" key="GridCell.Tab.0.right" timestamp="1623260111513">
+    <state width="959" height="313" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1623291939103" />
+    <state width="959" height="313" key="GridCell.Tab.0.left" timestamp="1623291939102">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1860" height="313" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1623260111513" />
+    <state width="959" height="313" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1623291939102" />
+    <state width="959" height="313" key="GridCell.Tab.0.right" timestamp="1623291939104">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="959" height="313" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1623291939104" />
     <state width="1084" height="318" key="GridCell.Tab.1.bottom" timestamp="1622948103999">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -598,10 +610,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1084" height="318" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622948103999" />
-    <state x="537" y="0" key="SettingsEditor" timestamp="1622901173285">
+    <state x="537" y="0" width="1280" height="1044" key="SettingsEditor" timestamp="1623471564182">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="537" y="0" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1622901173285" />
+    <state x="537" y="0" width="1280" height="1044" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1623471564182" />
     <state x="1079" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622969923817">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
