@@ -10,11 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Wrote tests for login controller">
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/mockito/login/LoginServiceCaptureArgumentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/mockito/login/LoginServiceSpyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/mockito/login/LoginServiceTest.java" afterDir="false" />
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Tested login service using a spy login repository object">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +259,7 @@
       <workItem from="1622946690070" duration="18417000" />
       <workItem from="1622986352908" duration="5986000" />
       <workItem from="1623232754954" duration="15740000" />
-      <workItem from="1623471181584" duration="14889000" />
+      <workItem from="1623471181584" duration="19650000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -557,7 +555,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623484164821</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Tested login service using a spy login repository object">
+      <created>1623490450889</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1623490450889</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +581,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented first nested class tests using @Nested" />
     <MESSAGE value="Implemented tests structure for a stack using nested classes in a test class" />
     <MESSAGE value="Used repeated tests" />
     <MESSAGE value="Implemented TemporaryFolderRuleTest after adding support for JUnit4 to Junit jupiter migration in the pom.xml file" />
@@ -601,7 +605,8 @@
     <MESSAGE value="Added configuration to download javadoc" />
     <MESSAGE value="Implemented MockitoExtension" />
     <MESSAGE value="Wrote tests for login controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrote tests for login controller" />
+    <MESSAGE value="Tested login service using a spy login repository object" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tested login service using a spy login repository object" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" width="1280" height="1044" key="#Project_Structure" timestamp="1623477577254">
@@ -640,22 +645,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1062" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1623471449196" />
-    <state width="939" height="308" key="GridCell.Tab.0.bottom" timestamp="1623486353695">
+    <state width="939" height="308" key="GridCell.Tab.0.bottom" timestamp="1623490452090">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="939" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1623486353695" />
-    <state width="939" height="308" key="GridCell.Tab.0.center" timestamp="1623486353695">
+    <state width="939" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1623490452090" />
+    <state width="939" height="308" key="GridCell.Tab.0.center" timestamp="1623490452088">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="939" height="308" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1623486353695" />
-    <state width="939" height="308" key="GridCell.Tab.0.left" timestamp="1623486353694">
+    <state width="939" height="308" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1623490452088" />
+    <state width="939" height="308" key="GridCell.Tab.0.left" timestamp="1623490452087">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="939" height="308" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1623486353694" />
-    <state width="939" height="308" key="GridCell.Tab.0.right" timestamp="1623486353695">
+    <state width="939" height="308" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1623490452087" />
+    <state width="939" height="308" key="GridCell.Tab.0.right" timestamp="1623490452089">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="939" height="308" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1623486353695" />
+    <state width="939" height="308" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1623490452089" />
     <state width="1084" height="318" key="GridCell.Tab.1.bottom" timestamp="1622948103999">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

@@ -69,6 +69,14 @@
             <scope>test</scope>
         </dependency>
 
+<!--        allure - for test reporting. See https://docs.qameta.io/allure/#_junit_5 -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-junit5</artifactId>
+            <version>2.14.0</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -95,6 +103,37 @@
                 </dependencies>
             </plugin>
 
+<!--            Test reporting -->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-surefire-report-plugin</artifactId>-->
+<!--                <version>3.0.0-M5</version>-->
+<!--            </plugin>-->
+
+<!--            Necessary as well for maven test reporting. See https://stackoverflow.com/a/51093732/10597330 -->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-project-info-reports-plugin</artifactId>-->
+<!--                <version>3.1.2</version>-->
+<!--            </plugin>-->
+
+<!--           Allure plugin - test reporting: -->
+<!--            https://docs.qameta.io/allure/#_junit_5-->
+<!--            https://github.com/allure-framework/allure2/issues/832-->
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.8</version>
+                <configuration>
+                    <allureDownloadUrl>https://github.com/allure-framework/allure2/releases/download/2.7.0/allure-2.7.0.zip</allureDownloadUrl>
+                </configuration>
+            </plugin>
+
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-site-plugin</artifactId>-->
+<!--                <version>3.7.1</version>-->
+<!--            </plugin>-->
 <!--            Download documentation. see https://stackoverflow.com/a/60655257/10597330 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
