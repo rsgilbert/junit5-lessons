@@ -11,8 +11,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Wrote test with custom name for parameterized tests">
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/mockito/MockitoExtension.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mvn-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/ArgumentConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/ArgumentConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/CollectionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/CollectionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/DynamicExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/DynamicExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/JUnit4ParameterizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/JUnit4ParameterizedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyParameterizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/MyParameterizedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyRepetitionInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/MyRepetitionInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyTestInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/MyTestInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyTestReporterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/MyTestReporterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyTestTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/MyTestTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyTestTemplateInvocationContextProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/MyTestTemplateInvocationContextProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/SimpleMultipleInputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/SimpleMultipleInputTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/StreamDynamicExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/StreamDynamicExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/TestInterfaceDynamicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/TestInterfaceDynamicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/TestLifecycleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/TestLifecycleImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/TestLifecycleLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/TestLifecycleLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/TestType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/TestType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/TimeExecutionLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/TimeExecutionLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/TimingExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/TimingExtension.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,8 +122,8 @@
   <component name="RunManager" selected="JUnit.MyParameterizedTest.testNamingParameterizedTest2">
     <configuration name="ArgumentConversion.testExplicitConversionFromStringToEnum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArgumentConversion" />
+      <option name="PACKAGE_NAME" value="adv" />
+      <option name="MAIN_CLASS_NAME" value="adv.ArgumentConversion" />
       <option name="METHOD_NAME" value="testExplicitConversionFromStringToEnum(ArgumentConversion$Creature)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -113,8 +132,8 @@
     </configuration>
     <configuration name="ArgumentConversion.testImplicitConversionToLocalDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArgumentConversion" />
+      <option name="PACKAGE_NAME" value="adv" />
+      <option name="MAIN_CLASS_NAME" value="adv.ArgumentConversion" />
       <option name="METHOD_NAME" value="testImplicitConversionToLocalDate(java.time.LocalDate)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -123,8 +142,8 @@
     </configuration>
     <configuration name="ArgumentConversion.testWithExplicitConversion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArgumentConversion" />
+      <option name="PACKAGE_NAME" value="adv" />
+      <option name="MAIN_CLASS_NAME" value="adv.ArgumentConversion" />
       <option name="METHOD_NAME" value="testWithExplicitConversion(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -133,8 +152,8 @@
     </configuration>
     <configuration name="MyParameterizedTest.testCustomNameForParameterizedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyParameterizedTest" />
+      <option name="PACKAGE_NAME" value="adv" />
+      <option name="MAIN_CLASS_NAME" value="adv.MyParameterizedTest" />
       <option name="METHOD_NAME" value="testCustomNameForParameterizedTest(java.lang.String,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -143,8 +162,8 @@
     </configuration>
     <configuration name="MyParameterizedTest.testNamingParameterizedTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyParameterizedTest" />
+      <option name="PACKAGE_NAME" value="adv" />
+      <option name="MAIN_CLASS_NAME" value="adv.MyParameterizedTest" />
       <option name="METHOD_NAME" value="testNamingParameterizedTest2(int,java.lang.String,boolean)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -224,7 +243,7 @@
       <workItem from="1622946690070" duration="18417000" />
       <workItem from="1622986352908" duration="5986000" />
       <workItem from="1623232754954" duration="15740000" />
-      <workItem from="1623471181584" duration="1062000" />
+      <workItem from="1623471181584" duration="3784000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -499,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623260160642</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Added configuration to download javadoc">
+      <created>1623472353260</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1623472353260</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +544,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created run configurations using Intellij Junit5 tag support. Created and ran tag configurations for functional, non-functional and performance tags. Reference guidance: https://www.baeldung.com/junit-filtering-tests" />
     <MESSAGE value="Created and used meta-annotations to tag tests" />
     <MESSAGE value="Performed conditional test execution using custom annotation and a custom extension of ExecutionCondition called OsCondition" />
     <MESSAGE value="Implemented first nested class tests using @Nested" />
@@ -543,7 +568,8 @@
     <MESSAGE value="Tested parameterized test using multiple custom @ArgumentSources at once" />
     <MESSAGE value="Wrote tests on argument conversion" />
     <MESSAGE value="Wrote test with custom name for parameterized tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrote test with custom name for parameterized tests" />
+    <MESSAGE value="Added configuration to download javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added configuration to download javadoc" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" width="1280" height="1044" key="#Project_Structure" timestamp="1622952003572">
@@ -630,6 +656,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="928" y="232" key="run.anything.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1622947785161" />
+    <state x="83" y="8" width="840" height="1034" key="search.everywhere.popup" timestamp="1623472399743">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="83" y="8" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1623472399743" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

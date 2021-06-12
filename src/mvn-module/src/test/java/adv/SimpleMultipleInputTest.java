@@ -1,3 +1,5 @@
+package adv;
+
 import org.junit.Test;
 
 public class SimpleMultipleInputTest {
