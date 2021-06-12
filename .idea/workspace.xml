@@ -10,28 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Wrote test with custom name for parameterized tests">
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/mockito/MockitoExtension.java" afterDir="false" />
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Implemented MockitoExtension">
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/main/java/mockito/login/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/main/java/mockito/login/LoginRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/main/java/mockito/login/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/main/java/mockito/login/UserForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/mockito/login/LoginControllerBDDMockito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/mockito/login/LoginControllerErrorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/mockito/login/LoginControllerLoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/ArgumentConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/ArgumentConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/CollectionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/CollectionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/DynamicExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/DynamicExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/JUnit4ParameterizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/JUnit4ParameterizedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyParameterizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/MyParameterizedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyRepetitionInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/MyRepetitionInfoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyTestInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/MyTestInfoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyTestReporterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/MyTestReporterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyTestTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/MyTestTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/MyTestTemplateInvocationContextProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/MyTestTemplateInvocationContextProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/SimpleMultipleInputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/SimpleMultipleInputTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/StreamDynamicExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/StreamDynamicExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/TestInterfaceDynamicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/TestInterfaceDynamicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/TestLifecycleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/TestLifecycleImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/TestLifecycleLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/TestLifecycleLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/TestType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/TestType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/TimeExecutionLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/TimeExecutionLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvn-module/src/test/java/TimingExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/adv/TimingExtension.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +80,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -101,70 +92,101 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="project.structure.side.proportion" value="0.3799448" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../src" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mockito" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/gradle-module" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../src" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyParameterizedTest.testNamingParameterizedTest2">
-    <configuration name="ArgumentConversion.testExplicitConversionFromStringToEnum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LoginControllerBDDMockito.testLoginThrow">
+    <configuration name="LoginControllerBDDMockito.testLoginKO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="adv" />
-      <option name="MAIN_CLASS_NAME" value="adv.ArgumentConversion" />
-      <option name="METHOD_NAME" value="testExplicitConversionFromStringToEnum(ArgumentConversion$Creature)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockito.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mockito.login" />
+      <option name="MAIN_CLASS_NAME" value="mockito.login.LoginControllerBDDMockito" />
+      <option name="METHOD_NAME" value="testLoginKO" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArgumentConversion.testImplicitConversionToLocalDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginControllerBDDMockito.testLoginOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="adv" />
-      <option name="MAIN_CLASS_NAME" value="adv.ArgumentConversion" />
-      <option name="METHOD_NAME" value="testImplicitConversionToLocalDate(java.time.LocalDate)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockito.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mockito.login" />
+      <option name="MAIN_CLASS_NAME" value="mockito.login.LoginControllerBDDMockito" />
+      <option name="METHOD_NAME" value="testLoginOK" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArgumentConversion.testWithExplicitConversion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginControllerBDDMockito.testLoginThrow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="adv" />
-      <option name="MAIN_CLASS_NAME" value="adv.ArgumentConversion" />
-      <option name="METHOD_NAME" value="testWithExplicitConversion(java.lang.String)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockito.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mockito.login" />
+      <option name="MAIN_CLASS_NAME" value="mockito.login.LoginControllerBDDMockito" />
+      <option name="METHOD_NAME" value="testLoginThrow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyParameterizedTest.testCustomNameForParameterizedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginControllerErrorTest.testLoginErrorNullUserForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="adv" />
-      <option name="MAIN_CLASS_NAME" value="adv.MyParameterizedTest" />
-      <option name="METHOD_NAME" value="testCustomNameForParameterizedTest(java.lang.String,int)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockito.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mockito.login" />
+      <option name="MAIN_CLASS_NAME" value="mockito.login.LoginControllerErrorTest" />
+      <option name="METHOD_NAME" value="testLoginErrorNullUserForm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyParameterizedTest.testNamingParameterizedTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginControllerErrorTest.testLoginException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
-      <option name="PACKAGE_NAME" value="adv" />
-      <option name="MAIN_CLASS_NAME" value="adv.MyParameterizedTest" />
-      <option name="METHOD_NAME" value="testNamingParameterizedTest2(int,java.lang.String,boolean)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockito.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mockito.login" />
+      <option name="MAIN_CLASS_NAME" value="mockito.login.LoginControllerErrorTest" />
+      <option name="METHOD_NAME" value="testLoginException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,19 +232,19 @@
       <item itemvalue="JUnit.Tags (Functional)" />
       <item itemvalue="JUnit.Tags (Non-functional)" />
       <item itemvalue="JUnit.Tags (Performance)" />
-      <item itemvalue="JUnit.ArgumentConversion.testImplicitConversionToLocalDate" />
-      <item itemvalue="JUnit.ArgumentConversion.testWithExplicitConversion" />
-      <item itemvalue="JUnit.ArgumentConversion.testExplicitConversionFromStringToEnum" />
-      <item itemvalue="JUnit.MyParameterizedTest.testCustomNameForParameterizedTest" />
-      <item itemvalue="JUnit.MyParameterizedTest.testNamingParameterizedTest2" />
+      <item itemvalue="JUnit.LoginControllerErrorTest.testLoginErrorNullUserForm" />
+      <item itemvalue="JUnit.LoginControllerErrorTest.testLoginException" />
+      <item itemvalue="JUnit.LoginControllerBDDMockito.testLoginOK" />
+      <item itemvalue="JUnit.LoginControllerBDDMockito.testLoginKO" />
+      <item itemvalue="JUnit.LoginControllerBDDMockito.testLoginThrow" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyParameterizedTest.testNamingParameterizedTest2" />
-        <item itemvalue="JUnit.MyParameterizedTest.testCustomNameForParameterizedTest" />
-        <item itemvalue="JUnit.ArgumentConversion.testExplicitConversionFromStringToEnum" />
-        <item itemvalue="JUnit.ArgumentConversion.testWithExplicitConversion" />
-        <item itemvalue="JUnit.ArgumentConversion.testImplicitConversionToLocalDate" />
+        <item itemvalue="JUnit.LoginControllerBDDMockito.testLoginThrow" />
+        <item itemvalue="JUnit.LoginControllerBDDMockito.testLoginKO" />
+        <item itemvalue="JUnit.LoginControllerBDDMockito.testLoginOK" />
+        <item itemvalue="JUnit.LoginControllerErrorTest.testLoginException" />
+        <item itemvalue="JUnit.LoginControllerErrorTest.testLoginErrorNullUserForm" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +265,7 @@
       <workItem from="1622946690070" duration="18417000" />
       <workItem from="1622986352908" duration="5986000" />
       <workItem from="1623232754954" duration="15740000" />
-      <workItem from="1623471181584" duration="3784000" />
+      <workItem from="1623471181584" duration="11512000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -525,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623472353260</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Implemented MockitoExtension">
+      <created>1623475192345</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1623475192345</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +573,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created and used meta-annotations to tag tests" />
     <MESSAGE value="Performed conditional test execution using custom annotation and a custom extension of ExecutionCondition called OsCondition" />
     <MESSAGE value="Implemented first nested class tests using @Nested" />
     <MESSAGE value="Implemented tests structure for a stack using nested classes in a test class" />
@@ -569,33 +597,38 @@
     <MESSAGE value="Wrote tests on argument conversion" />
     <MESSAGE value="Wrote test with custom name for parameterized tests" />
     <MESSAGE value="Added configuration to download javadoc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added configuration to download javadoc" />
+    <MESSAGE value="Implemented MockitoExtension" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented MockitoExtension" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="0" width="1280" height="1044" key="#Project_Structure" timestamp="1622952003572">
+    <state x="320" y="0" width="1280" height="1044" key="#Project_Structure" timestamp="1623477577254">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="320" y="0" width="1280" height="1044" key="#Project_Structure/0.0.1920.1044@0.0.1920.1044" timestamp="1622952003572" />
+    <state x="320" y="0" width="1280" height="1044" key="#Project_Structure/0.0.1920.1044@0.0.1920.1044" timestamp="1623477577254" />
     <state x="579" y="156" width="1232" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622911980317">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="579" y="156" width="1232" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1622911980317" />
-    <state x="1119" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1623253456794">
+    <state x="1119" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1623475826821">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="1119" y="155" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1623253456794" />
+    <state x="1119" y="155" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1623475826821" />
     <state x="867" y="248" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1622911841195">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="867" y="248" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1622911841195" />
-    <state x="1096" y="425" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1622959055741">
+    <state x="835" y="425" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1623477657766">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="1096" y="425" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1622959055741" />
+    <state x="835" y="425" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1623477657766" />
     <state x="1054" y="352" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1622963896920">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1054" y="352" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1044@0.0.1920.1044" timestamp="1622963896920" />
+    <state x="190" y="369" width="597" height="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1623477660071">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="190" y="369" width="597" height="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1044@0.0.1920.1044" timestamp="1623477660071" />
     <state x="643" y="157" width="623" height="736" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1623471197457">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -604,22 +637,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1062" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1623471449196" />
-    <state width="959" height="313" key="GridCell.Tab.0.bottom" timestamp="1623291939105">
+    <state width="907" height="308" key="GridCell.Tab.0.bottom" timestamp="1623483574144">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="959" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1623291939105" />
-    <state width="959" height="313" key="GridCell.Tab.0.center" timestamp="1623291939103">
+    <state width="907" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1623483574144" />
+    <state width="907" height="308" key="GridCell.Tab.0.center" timestamp="1623483574144">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="959" height="313" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1623291939103" />
-    <state width="959" height="313" key="GridCell.Tab.0.left" timestamp="1623291939102">
+    <state width="907" height="308" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1623483574144" />
+    <state width="907" height="308" key="GridCell.Tab.0.left" timestamp="1623483574143">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="959" height="313" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1623291939102" />
-    <state width="959" height="313" key="GridCell.Tab.0.right" timestamp="1623291939104">
+    <state width="907" height="308" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1623483574143" />
+    <state width="907" height="308" key="GridCell.Tab.0.right" timestamp="1623483574144">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="959" height="313" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1623291939104" />
+    <state width="907" height="308" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1623483574144" />
     <state width="1084" height="318" key="GridCell.Tab.1.bottom" timestamp="1622948103999">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -636,10 +669,14 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1084" height="318" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1622948103999" />
-    <state x="537" y="0" width="1280" height="1044" key="SettingsEditor" timestamp="1623471564182">
+    <state x="537" y="0" width="1280" height="1044" key="SettingsEditor" timestamp="1623480549831">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="537" y="0" width="1280" height="1044" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1623471564182" />
+    <state x="537" y="0" width="1280" height="1044" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1623480549831" />
+    <state x="792" y="390" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1623480496794">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="792" y="390" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1044@0.0.1920.1044" timestamp="1623480496794" />
     <state x="1079" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622969923817">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -652,10 +689,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="298" y="0" key="new project wizard/0.0.1920.1044@0.0.1920.1044" timestamp="1622736128813" />
-    <state x="928" y="232" key="run.anything.popup" timestamp="1622947785161">
+    <state x="928" y="232" key="run.anything.popup" timestamp="1623476419951">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="928" y="232" key="run.anything.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1622947785161" />
+    <state x="928" y="232" key="run.anything.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1623476419951" />
     <state x="83" y="8" width="840" height="1034" key="search.everywhere.popup" timestamp="1623472399743">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
