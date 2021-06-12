@@ -10,14 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Implemented MockitoExtension">
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/main/java/mockito/login/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/main/java/mockito/login/LoginRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/main/java/mockito/login/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/main/java/mockito/login/UserForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/mockito/login/LoginControllerBDDMockito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/mockito/login/LoginControllerErrorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/mockito/login/LoginControllerLoginTest.java" afterDir="false" />
+    <list default="true" id="a6cf942c-8501-4088-8b66-d8f776b2a10d" name="Default Changelist" comment="Wrote tests for login controller">
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/mockito/login/LoginServiceCaptureArgumentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/mockito/login/LoginServiceSpyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvn-module/src/test/java/mockito/login/LoginServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,39 +107,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoginControllerBDDMockito.testLoginThrow">
-    <configuration name="LoginControllerBDDMockito.testLoginKO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvn-module" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mockito.login.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mockito.login" />
-      <option name="MAIN_CLASS_NAME" value="mockito.login.LoginControllerBDDMockito" />
-      <option name="METHOD_NAME" value="testLoginKO" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginControllerBDDMockito.testLoginOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mvn-module" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mockito.login.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mockito.login" />
-      <option name="MAIN_CLASS_NAME" value="mockito.login.LoginControllerBDDMockito" />
-      <option name="METHOD_NAME" value="testLoginOK" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LoginServiceCaptureArgumentTest.testArgumentCapture">
     <configuration name="LoginControllerBDDMockito.testLoginThrow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <extension name="coverage">
@@ -160,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginControllerErrorTest.testLoginErrorNullUserForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginServiceCaptureArgumentTest.testArgumentCapture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <extension name="coverage">
         <pattern>
@@ -169,14 +133,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mockito.login" />
-      <option name="MAIN_CLASS_NAME" value="mockito.login.LoginControllerErrorTest" />
-      <option name="METHOD_NAME" value="testLoginErrorNullUserForm" />
+      <option name="MAIN_CLASS_NAME" value="mockito.login.LoginServiceCaptureArgumentTest" />
+      <option name="METHOD_NAME" value="testArgumentCapture" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginControllerErrorTest.testLoginException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginServiceTest.testLoginFailed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mvn-module" />
       <extension name="coverage">
         <pattern>
@@ -185,8 +149,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mockito.login" />
-      <option name="MAIN_CLASS_NAME" value="mockito.login.LoginControllerErrorTest" />
-      <option name="METHOD_NAME" value="testLoginException" />
+      <option name="MAIN_CLASS_NAME" value="mockito.login.LoginServiceTest" />
+      <option name="METHOD_NAME" value="testLoginFailed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginServiceTest.testLoginSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvn-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockito.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mockito.login" />
+      <option name="MAIN_CLASS_NAME" value="mockito.login.LoginServiceTest" />
+      <option name="METHOD_NAME" value="testLoginSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginServiceTest.testLoginTwice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mvn-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockito.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mockito.login" />
+      <option name="MAIN_CLASS_NAME" value="mockito.login.LoginServiceTest" />
+      <option name="METHOD_NAME" value="testLoginTwice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -232,19 +228,19 @@
       <item itemvalue="JUnit.Tags (Functional)" />
       <item itemvalue="JUnit.Tags (Non-functional)" />
       <item itemvalue="JUnit.Tags (Performance)" />
-      <item itemvalue="JUnit.LoginControllerErrorTest.testLoginErrorNullUserForm" />
-      <item itemvalue="JUnit.LoginControllerErrorTest.testLoginException" />
-      <item itemvalue="JUnit.LoginControllerBDDMockito.testLoginOK" />
-      <item itemvalue="JUnit.LoginControllerBDDMockito.testLoginKO" />
       <item itemvalue="JUnit.LoginControllerBDDMockito.testLoginThrow" />
+      <item itemvalue="JUnit.LoginServiceTest.testLoginSuccess" />
+      <item itemvalue="JUnit.LoginServiceTest.testLoginFailed" />
+      <item itemvalue="JUnit.LoginServiceTest.testLoginTwice" />
+      <item itemvalue="JUnit.LoginServiceCaptureArgumentTest.testArgumentCapture" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginServiceCaptureArgumentTest.testArgumentCapture" />
+        <item itemvalue="JUnit.LoginServiceTest.testLoginTwice" />
+        <item itemvalue="JUnit.LoginServiceTest.testLoginFailed" />
+        <item itemvalue="JUnit.LoginServiceTest.testLoginSuccess" />
         <item itemvalue="JUnit.LoginControllerBDDMockito.testLoginThrow" />
-        <item itemvalue="JUnit.LoginControllerBDDMockito.testLoginKO" />
-        <item itemvalue="JUnit.LoginControllerBDDMockito.testLoginOK" />
-        <item itemvalue="JUnit.LoginControllerErrorTest.testLoginException" />
-        <item itemvalue="JUnit.LoginControllerErrorTest.testLoginErrorNullUserForm" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +261,7 @@
       <workItem from="1622946690070" duration="18417000" />
       <workItem from="1622986352908" duration="5986000" />
       <workItem from="1623232754954" duration="15740000" />
-      <workItem from="1623471181584" duration="11512000" />
+      <workItem from="1623471181584" duration="14889000" />
     </task>
     <task id="LOCAL-00001" summary="Created maven module and ran first maven test successfully">
       <created>1622699557041</created>
@@ -554,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623475192345</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Wrote tests for login controller">
+      <created>1623484164821</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1623484164821</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +576,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Performed conditional test execution using custom annotation and a custom extension of ExecutionCondition called OsCondition" />
     <MESSAGE value="Implemented first nested class tests using @Nested" />
     <MESSAGE value="Implemented tests structure for a stack using nested classes in a test class" />
     <MESSAGE value="Used repeated tests" />
@@ -598,7 +600,8 @@
     <MESSAGE value="Wrote test with custom name for parameterized tests" />
     <MESSAGE value="Added configuration to download javadoc" />
     <MESSAGE value="Implemented MockitoExtension" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented MockitoExtension" />
+    <MESSAGE value="Wrote tests for login controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrote tests for login controller" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="0" width="1280" height="1044" key="#Project_Structure" timestamp="1623477577254">
@@ -637,22 +640,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1062" y="219" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1623471449196" />
-    <state width="907" height="308" key="GridCell.Tab.0.bottom" timestamp="1623483574144">
+    <state width="939" height="308" key="GridCell.Tab.0.bottom" timestamp="1623486353695">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="907" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1623483574144" />
-    <state width="907" height="308" key="GridCell.Tab.0.center" timestamp="1623483574144">
+    <state width="939" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1623486353695" />
+    <state width="939" height="308" key="GridCell.Tab.0.center" timestamp="1623486353695">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="907" height="308" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1623483574144" />
-    <state width="907" height="308" key="GridCell.Tab.0.left" timestamp="1623483574143">
+    <state width="939" height="308" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1623486353695" />
+    <state width="939" height="308" key="GridCell.Tab.0.left" timestamp="1623486353694">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="907" height="308" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1623483574143" />
-    <state width="907" height="308" key="GridCell.Tab.0.right" timestamp="1623483574144">
+    <state width="939" height="308" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1623486353694" />
+    <state width="939" height="308" key="GridCell.Tab.0.right" timestamp="1623486353695">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="907" height="308" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1623483574144" />
+    <state width="939" height="308" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1623486353695" />
     <state width="1084" height="318" key="GridCell.Tab.1.bottom" timestamp="1622948103999">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
